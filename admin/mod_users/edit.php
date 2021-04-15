@@ -11,13 +11,13 @@ $res = $user->single_user($_SESSION['id']);
 <form class="form-horizontal well span6" action="controller.php?action=edit" method="POST">
 
 	<fieldset>
-		<legend>New User Account</legend>
+		<legend>Sửa người dùng</legend>
 											
           
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "UNAME">Name:</label>
+              "UNAME">Tên:</label>
 
               <div class="col-md-8">
               	<input name="USERID" type="hidden" value="<?php echo $res->USERID; ?>">
@@ -30,7 +30,7 @@ $res = $user->single_user($_SESSION['id']);
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "USERNAME">Username:</label>
+              "USERNAME">Tên tài khoản:</label>
 
               <div class="col-md-8"> 
                  <input class="form-control input-sm" id="USERNAME" name="USERNAME" placeholder=
@@ -42,7 +42,7 @@ $res = $user->single_user($_SESSION['id']);
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "UPASS">Password:</label>
+              "UPASS">Mật khẩu:</label>
 
               <div class="col-md-8">
               	<input name="deptid" type="hidden" value="">
@@ -54,11 +54,11 @@ $res = $user->single_user($_SESSION['id']);
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "ROLE">Role:</label> 
+              "ROLE">Vị trí:</label> 
               <div class="col-md-8">
                 <select class="form-control input-sm" name="ROLE" id="ROLE">
-                  <option <?php echo ($res->ROLE=='Administrator') ? 'SELECTED' : '';  ?> value="Administrator">Administrator</option>
-                  <option <?php echo ($res->ROLE=='Guest In-charge') ? 'SELECTED' : ''; ?> value="Guest In-charge">Guest In-charge</option>
+                  <option <?php echo ($res->ROLE=='Administrator') ? 'SELECTED' : '';  ?> value="Administrator">Quản lý</option>
+                  <option <?php echo ($res->ROLE=='Guest In-charge') ? 'SELECTED' : ''; ?> value="Guest In-charge">Khách hàng</option>
                  </select> 
               </div>
             </div>
@@ -67,7 +67,7 @@ $res = $user->single_user($_SESSION['id']);
         <div class="form-group">
           <div class="col-md-8">
             <label class="col-md-4 control-label" for=
-            "Contact #:">Contact #::</label>
+            "Contact #:">Liên hệ #::</label>
 
             <div class="col-md-8">
               <input name="deptid" type="hidden" value="">

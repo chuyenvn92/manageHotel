@@ -5,19 +5,19 @@
 		?>
 		<!-- <div class="panel panel-primary"> -->
 			<div class="panel-body">
-				<h3 align="left">List of User</h3>
+				<h3 align="left">Danh sách người dùng</h3>
 			    <form action="controller.php?action=delete" Method="POST">  					
 					<table id="example" class="table table-striped" cellspacing="0">
 					
 				  <thead>
 				  	<tr >
-				  		<th>No.</th>
+				  		<th>STT</th>
 				  		<th>
 				  		 <input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');"> 
-				  		 Account Name</th>
-				  		<th>Username</th>
-				  		<th>Type</th>
-						<th>Contact #</th>
+				  		 Tên người dùng</th>
+				  		<th>Tên tài khoản</th>
+				  		<th>Vị trí</th>
+						<th>Liên hệ #</th>
 				 
 				  	</tr>	
 				  </thead>
@@ -42,8 +42,8 @@
 				
 				</table>
 				<div class="btn-group">
-				  <a href="index.php?view=add" class="btn btn-default">New</a>
-				  <button type="submit" class="btn btn-default" name="delete"><span class="glyphicon glyphicon-trash"></span> Delete Selected</button>
+				  <a href="index.php?view=add" class="btn btn-default">Thêm tài khoản</a>
+				  <button type="submit" class="btn btn-default" name="delete"><span class="glyphicon glyphicon-trash"></span> Xoá</button>
 				</div>
 				</form>
 	  		</div><!--End of Panel Body-->

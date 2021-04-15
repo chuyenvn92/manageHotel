@@ -11,7 +11,7 @@ require_once("../includes/initialize.php");
     <meta name="author" content="">
 
 
-    <title>KIM Hotel</title>
+    <title>KIM HOTEL</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">

@@ -39,11 +39,11 @@ $res = $guest->single_guest($_GET['id']);
             <div class="box-body no-padding">
  
               <div class="table-responsive mailbox-messages">
-     <div><h2>Guest Information</h2></div>
+     <div><h2>Thông tin khách hàng</h2></div>
                 <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "name">FIRST NAME:</label>
+                        "name">Họ:</label>
 
                         <div class="col-md-8">
                           <input name="" type="hidden">
@@ -55,7 +55,7 @@ $res = $guest->single_guest($_GET['id']);
                       <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "last">LAST NAME:</label>
+                        "last">Tên:</label>
 
                         <div class="col-md-8">
                           <input name="last" type="text" value="<?php echo $res->G_LNAME; ?>" class="form-control input-sm" id="last" />
@@ -66,7 +66,7 @@ $res = $guest->single_guest($_GET['id']);
                      <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "address">ADDRESS:</label>
+                        "address">Địa chỉ:</label>
 
                         <div class="col-md-8">
                           <input name="address" type="text" value="<?php echo $res->G_ADDRESS; ?>" class="form-control input-sm" id="address" />
@@ -74,7 +74,7 @@ $res = $guest->single_guest($_GET['id']);
                       </div>
                     </div> 
 
-     <div><h2>Reservation Details</h2></div>
+     <div><h2>Chi tiết đặt phòng</h2></div>
      <?php
 $code = $_GET['code'];
 
@@ -88,7 +88,7 @@ $res = $mydb->loadSingleResult();
                     <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "TRANSDATE">Transaction Date:</label>
+                        "TRANSDATE">Ngày giao dịch:</label>
                         <div class="col-md-8">
                         <div class="input-group " >  
                         <div class="input-group-addon"> 
@@ -104,7 +104,7 @@ $res = $mydb->loadSingleResult();
                     <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "CONFIRMATIONCODE">Confirmation Code:</label>
+                        "CONFIRMATIONCODE">Mã xác nhận:</label>
 
                         <div class="col-md-8">
                           <input name="CONFIRMATIONCODE" type="text" value="<?php echo $res->CONFIRMATIONCODE; ?>" class="form-control input-sm" id="CONFIRMATIONCODE" />
@@ -114,7 +114,7 @@ $res = $mydb->loadSingleResult();
                     <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "STATUS">Status:</label>
+                        "STATUS">Trạng thái:</label>
 
                         <div class="col-md-8">
                           <input name="STATUS" type="text" value="<?php echo $res->STATUS; ?>" class="form-control input-sm" id="STATUS" />

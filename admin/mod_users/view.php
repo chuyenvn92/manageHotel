@@ -8,13 +8,13 @@ $result = $user->single_user($id);
 <form class="form-horizontal well span6" action="newuser.php" method="POST">
 
 					<fieldset>
-						<legend>Account Details</legend>
+						<legend>Chi tiết tài khoản</legend>
 															
 				          
 				          <div class="form-group">
 				            <div class="col-md-8">
 				              <label class="col-md-4 control-label" for=
-				              "name">Name:</label>
+				              "name">Tên:</label>
 
 				              <div class="col-md-8">
 				              	<input name="deptid" type="hidden" value="">
@@ -27,7 +27,7 @@ $result = $user->single_user($id);
 				          <div class="form-group">
 				            <div class="col-md-8">
 				              <label class="col-md-4 control-label" for=
-				              "username">Email Address:</label>
+				              "username">Địa chỉ email:</label>
 
 				              <div class="col-md-8">
 				              	<input name="deptid" type="hidden" value="">
@@ -41,7 +41,7 @@ $result = $user->single_user($id);
 				          <div class="form-group">
 				            <div class="col-md-8">
 				              <label class="col-md-4 control-label" for=
-				              "type">Type:</label>
+				              "type">Vị trí:</label>
 
 				              <div class="col-md-8">
 				              <input class="form-control input-sm" id="username" name="username" placeholder=

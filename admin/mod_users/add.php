@@ -2,13 +2,13 @@
 <form class="form-horizontal well span6" action="controller.php?action=add" method="POST">
 
 	<fieldset>
-		<legend>New User Account</legend>
+		<legend>Thêm người dùng</legend>
 											
           
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "UNAME">Name:</label>
+              "UNAME">Tên:</label>
 
               <div class="col-md-8">
               	<input name="deptid" type="hidden" value="">
@@ -21,7 +21,7 @@
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "USERNAME">Username:</label>
+              "USERNAME">Tên tài khoản:</label>
 
               <div class="col-md-8">
               	<input name="deptid" type="hidden" value="">
@@ -34,7 +34,7 @@
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "UPASS">Password:</label>
+              "UPASS">Mật khẩu:</label>
 
               <div class="col-md-8">
               	<input name="deptid" type="hidden" value="">
@@ -46,12 +46,12 @@
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "ROLE">Role:</label>
+              "ROLE">Vị trí:</label>
 
               <div class="col-md-8">
                 <select class="form-control input-sm" name="ROLE" id="ROLE">
-                  <option value="Administrator">Administrator</option>
-                    <option value="Guest In-charge">Guest In-charge</option>
+                  <option value="Administrator">Quản lý</option>
+                    <option value="Guest In-charge">Khách hàng</option>
                   <!-- <option value="Encoder">Encoder</option> -->
                 </select> 
               </div>
@@ -61,7 +61,7 @@
         <div class="form-group">
           <div class="col-md-8">
             <label class="col-md-4 control-label" for=
-            "Contact #:">Contact #::</label>
+            "Contact #:">Liên hệ #::</label>
 
             <div class="col-md-8">
               <input name="deptid" type="hidden" value="">
@@ -77,7 +77,7 @@
               "idno"></label>
 
               <div class="col-md-8">
-                <button class="btn btn-primary" name="save" type="submit" >Save</button>
+                <button class="btn btn-primary" name="save" type="submit" >Lưu</button>
               </div>
             </div>
           </div>

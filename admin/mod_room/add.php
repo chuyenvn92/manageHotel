@@ -2,7 +2,7 @@
 <form class="form-horizontal well span6" action="controller.php?action=add" enctype="multipart/form-data" method="POST">
 
 	<fieldset>
-		<legend>New Room</legend>
+		<legend>Thêm phòng</legend>
 											
           
         
@@ -10,7 +10,7 @@
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "ROOM">Name:</label>
+              "ROOM">Tên:</label>
 
               <div class="col-md-8">
               	<input name="" type="hidden" value="">
@@ -23,11 +23,11 @@
            <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "ACCOMID">Accomodation:</label>
+              "ACCOMID">Loại phòng:</label>
 
               <div class="col-md-8">
               <select class="form-control input-sm" name="ACCOMID" id="ACCOMID"> 
-                    <option value="None">None</option>
+                    <option value="None">Lựa chọn</option>
                     <?php
                     $rm = new Accomodation();
                     $cur= $rm->listOfaccomodation();
@@ -44,7 +44,7 @@
             <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "ROOMDESC">Description:</label>
+              "ROOMDESC">Mô tả:</label>
 
               <div class="col-md-8">
                 <input name="" type="hidden" value="">
@@ -61,7 +61,7 @@
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "NUMPERSON">Number of Person:</label>
+              "NUMPERSON">Số người:</label>
 
               <div class="col-md-8">
                 <input class="form-control input-sm" id="NUMPERSON" name="NUMPERSON" placeholder=
@@ -74,7 +74,7 @@
            <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "PRICE">Price:</label>
+              "PRICE">Giá:</label>
 
               <div class="col-md-8"> 
                 <input class="form-control input-sm" id="PRICE" name="PRICE" placeholder=
@@ -99,7 +99,7 @@
           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
-              "image">Upload Image:</label>
+              "image">Tải ảnh lên:</label>
 
               <div class="col-md-8">
               <input type="file" name="image" value="" id="image">
@@ -114,11 +114,10 @@
               "idno"></label>
 
               <div class="col-md-8">
-                <button class="btn btn-primary" name="save" type="submit" >Save</button>
+                <button class="btn btn-primary" name="save" type="submit" >Lưu</button>
               </div>
             </div>
           </div>
-
 			
 	</fieldset>	
 	
