@@ -47,7 +47,7 @@ redirect('index.php?view=payment');
 					  <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "name">FIRST NAME:</label>
+			              "name">Họ:</label>
 
 			              <div class="col-md-12">
 			              	<input name="" type="hidden" value="">
@@ -59,7 +59,7 @@ redirect('index.php?view=payment');
 			            <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "last">LAST NAME:</label>
+			              "last">Tên:</label>
 
 			              <div class="col-md-12">
 			                <input name="last" type="text" class="form-control input-sm" id="last" />
@@ -72,7 +72,7 @@ redirect('index.php?view=payment');
 			           <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "city">CITY:</label>
+			              "city">Thành phố:</label>
 
 			              <div class="col-md-12">
 			                <input name="city" type="text" class="form-control input-sm" id="city" />
@@ -82,7 +82,7 @@ redirect('index.php?view=payment');
 			           <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "address">ADDRESS:</label>
+			              "address">Địa chỉ:</label>
 
 			              <div class="col-md-12">
 			                <input name="address" type="text" class="form-control input-sm" id="address" />
@@ -93,7 +93,7 @@ redirect('index.php?view=payment');
 			            <div class="form-group  ">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "dbirth">DATE OF BIRTH:</label>
+			              "dbirth">Ngày sinh:</label>
 
 			              <div class="col-md-12 input-group">
 			                 <input type="text" data-date="" data-date-format="yyyy-mm-dd" data-link-field="any" 
@@ -111,7 +111,7 @@ redirect('index.php?view=payment');
 			           <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "phone">PHONE:</label>
+			              "phone">Số điện thoại:</label>
 
 			              <div class="col-md-12">
 			                <input name="phone" type="text" class="form-control input-sm" id="phone" />
@@ -122,7 +122,7 @@ redirect('index.php?view=payment');
 			           <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "nationality">NATIONALITY:</label>
+			              "nationality">Quốc tịch:</label>
 
 			              <div class="col-md-12">
 			                <input name="nationality" type="text" class="form-control input-sm" id="nationality" />
@@ -133,7 +133,7 @@ redirect('index.php?view=payment');
 			             <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "company">COMPANY:</label>
+			              "company">Công ty:</label>
 
 			              <div class="col-md-12">
 			                <input name="company" type="text" class="form-control input-sm" id="company" />
@@ -165,7 +165,7 @@ redirect('index.php?view=payment');
 			            <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "username">USERNAME:</label>
+			              "username">Tên tài khoản:</label>
 
 			              <div class="col-md-12">
 			                <input name="username" type="text" class="form-control input-sm" id="username" />
@@ -176,7 +176,7 @@ redirect('index.php?view=payment');
 			          <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "password">PASSWORD:</label>
+			              "password">Mật khẩu:</label>
 
 			              <div class="col-md-12">
 			                <input name="pass" type="password" class="form-control input-sm" id="password" />
@@ -188,7 +188,7 @@ redirect('index.php?view=payment');
 			          <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "zip">ZIP CODE:</label>
+			              "zip">Mã vùng:</label>
 
 			              <div class="col-md-12">
 			                <input name="zip" type="text" class="form-control input-sm" id="zip" />
@@ -199,8 +199,8 @@ redirect('index.php?view=payment');
 				 <div class="form-group">
 			        <div class="col-md-12"> 
 			        	 <div class="col-md-12">
-			        	 		I <input type="checkbox" name="condition" value="checkbox" />
-					 <small>Agree the <a class="toggle-modal"  onclick="OpenPopupCenter('terms_condition.php','Terms And Codition','600','600')" /> TERMS AND CONDITION </a> of this Hotel</small> 
+			        	 		Tôi <input type="checkbox" name="condition" value="checkbox" />
+					 <small>đồng ý <a class="toggle-modal"  onclick="OpenPopupCenter('terms_condition.php','Terms And Codition','600','600')" /> ĐIỀU KHOẢN VÀ ĐIỀU KIỆN </a> của KHÁCH SẠN</small> 
 					 	
 			        	 </div>
 			

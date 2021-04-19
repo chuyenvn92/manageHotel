@@ -9,25 +9,25 @@ if (!isset($_SESSION['dragonhouse_cart'])) {
 
  ?> 
  
-           <h1 style="display: inline-block;">Login</h1>
-              <a style="display: inline-block;" href="personalinfo.php" data-title="Register New Guest" data-toggle="lightbox">  Register</a> 
+           <h1 style="display: inline-block;">Đăng nhập</h1>
+              <a style="display: inline-block;" href="personalinfo.php" data-title="Register New Guest" data-toggle="lightbox">  Đăng ký</a> 
        
                       <form action="<?php echo  WEB_ROOT."login.php" ?>" method="post">
                         <div class="form-group">
                             <div class=""> 
                               <label class="control-label" for=
-                              "Username">Username:</label> 
+                              "Username">Tên tài khoản:</label> 
                                     <input   id="username" name="username" placeholder="Username" type="text" class="form-control input"  style="width: 100%">  
                             </div> 
            
                             <div class="">
                               <label class="control-label" for=
-                              "pass">Password:</label> 
+                              "pass">Mật khẩu:</label> 
                                <input name="pass" id="pass" placeholder="Password" type="password" class="form-control input " style="width: 100%"> 
                             </div> 
                         </div>  
                       
-                        <button type="submit" name="gsubmit" class="button">Sign In</button> 
+                        <button type="submit" name="gsubmit" class="button">Đăng nhập</button> 
                         </form>   
                    
  
@@ -75,39 +75,39 @@ for ($i=0; $i < $count_cart  ; $i++) {
                 <div class="panel-body">
 
                     <div class="col-md-12">
-                      <label>Room:</label><br/>
+                      <label>Phòng:</label><br/>
                       <?php echo  $result->ROOM.' '. $result->ROOMDESC; ?>
                     </div>
                    
                     <div class="col-md-6">
-                      <label>Arrival:</label>
+                      <label>Ngày đến:</label>
                       <?php echo  date_format(date_create( $_SESSION['dragonhouse_cart'][$i]['dragonhousecheckin']),"m/d/Y"); ?>
                     </div> 
 
                     <div class="col-md-6">
-                       <label>Departure:</label>
+                       <label>Ngày đi:</label>
                       <?php echo  date_format(date_create( $_SESSION['dragonhouse_cart'][$i]['dragonhousecheckout']),"m/d/Y"); ?>
                     </div>   
                   
  
                       <div class="col-md-12" style="float:left;border-top:1px solid #000;">
-                          <label>Summary</label> 
+                          <label>Tóm lược</label> 
                       </div>
                 
                       <div style="float:right">  
 
                           <div class="col-md-12"  >
-                              <label>Price:</label>
+                              <label>Giá:</label>
                             <?php echo  ' &#8369 '. $result->PRICE; ?>
                          </div> 
 
                          <div class="col-md-12"  >
-                              <label>Days:</label>
+                              <label>Số ngày:</label>
                             <?php echo   $_SESSION['dragonhouse_cart'][$i]['dragonhouseday']; ?>
                          </div> 
 
                          <div class="col-md-12" >
-                              <label>Total:</label>
+                              <label>Tổng hoá đơn:</label>
                             <?php echo ' &#8369 '.   $_SESSION['dragonhouse_cart'][$i]['dragonhouseroomprice']; ?>
                          </div> 
 
@@ -132,7 +132,7 @@ for ($i=0; $i < $count_cart  ; $i++) {
 ?>
       <div class="col-md-12" >
       <div class="row">
-          <label style="float:left">Overall Price</label> <h2 style="float:right"> &#8369 <?php echo   $_SESSION['pay'] ;?></h2> 
+          <label style="float:left">Tổng tiền</label> <h2 style="float:right"> &#8369 <?php echo   $_SESSION['pay'] ;?></h2> 
       </div>
         </div>
 

@@ -16,7 +16,7 @@ $cur = $room->single_room($_POST['ROOMID']);
 <form class="form-horizontal well span6" action="controller.php?action=editimage" enctype="multipart/form-data" method="POST">
 
 	<table class="table table-hover" border="0" width="50">
-			<caption><h3 align="left">Modify Image</h3></caption>
+			<caption><h3 align="left">Sửa đổi hình ảnh</h3></caption>
 		<tr>
 		<td width="80">
 			<input name="id" type="hidden" value="<?php echo $cur->ROOMID; ?>">
@@ -29,7 +29,7 @@ $cur = $room->single_room($_POST['ROOMID']);
 		</tr>
 		<tr>
 		<td  width="80"><input type="button" value="x Close" class="btn btn-default" onclick="window.location.href='index.php'" >  
-		 <button class="btn btn-primary" name="save" type="submit" >Save</button>
+		 <button class="btn btn-primary" name="save" type="submit" >Lưu</button>
 
 		</td>
 		</tr>

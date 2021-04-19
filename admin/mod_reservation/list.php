@@ -11,15 +11,15 @@
 <tr>
 <td width="5%">#</td>	
 
-<td width="90"><strong>Guest</strong></td>
+<td width="90"><strong>Khách</strong></td>
 <!--<td width="10"><strong>Confirmation</strong></td>-->
-<td width="80"><strong>Transaction Date</strong></td>
-<td width="80"><strong>Confimation Code</strong></td>
-<td width="70"><strong>Total Rooms</strong></td>
-<td width="80"><strong>Total Price</strong></td>
+<td width="80"><strong>Ngày giao dịch</strong></td>
+<td width="80"><strong>Mã xác nhận</strong></td>
+<td width="70"><strong>Tổng số phòng</strong></td>
+<td width="80"><strong>Tổng tiền</strong></td>
 <!-- <td width="80"><strong>Nights</strong></td> -->
-<td width="80"><strong>Status</strong></td>
-<td width="100"><strong>Action</strong></td>
+<td width="80"><strong>Trạng thái</strong></td>
+<td width="100"><strong>Hoạt động</strong></td>
 </tr>
 </thead>
 <tbody>
@@ -86,7 +86,7 @@ foreach ($cur as $result) {
 					<div class="modal-header">
 						
 
-						<div class="alert alert-info">Profile:</div>
+						<div class="alert alert-info">Hồ sơ:</div>
 					</div>
 
 					<form action="#"  method=
@@ -96,11 +96,11 @@ foreach ($cur as $result) {
 												
 								<div id="display">
 									
-										<p>ID : <div id="infoid"></div></p><br/>
-											Name : <div id="infoname"></div><br/>
-											Email Address : <div id="Email"></div><br/>
-											Gender : <div id="Gender"></div><br/>
-											Birthday : <div id="bday"></div>
+										<p>Mã tài khoản : <div id="infoid"></div></p><br/>
+											Tên : <div id="infoname"></div><br/>
+											Địa chỉ Email : <div id="Email"></div><br/>
+											Giới tính : <div id="Gender"></div><br/>
+											Ngày sinh : <div id="bday"></div>
 										</p>
 										
 								</div>
@@ -108,7 +108,7 @@ foreach ($cur as $result) {
 
 						<div class="modal-footer">
 							<button class="btn btn-default" data-dismiss="modal" type=
-							"button">Close</button>
+							"button">Đóng</button>
 						</div>
 					</form>
 				</div><!-- /.modal-content -->

@@ -44,7 +44,7 @@
 
         <!-- /.col -->
         <div class="col-sm-2 invoice-col">
-          Ngày Checkedin
+          Ngày đến
           <address> 
 		  <div class="form-group">
 			 <input class="form-control date start " size="20" type="text" value="<?php echo (isset($_POST['start'])) ? $_POST['start'] : date('d-m-Y'); ?>" Placeholder="Ngày checkout" name="start" id="from" data-date="" data-date-format="dd-mm-yyyy" data-link-field="any" data-link-format="dd-mm-YYYY">
@@ -53,7 +53,7 @@
         </div>
         <!-- /.col -->
         <div class="col-sm-2 invoice-col">
-        Ngày Checkedout
+        Ngày đi
         <address>
         <div class="form-group"> 
 		      <input class="form-control date end " size="20" type="text" value="<?php echo (isset($_POST['end'])) ? $_POST['end'] : date('Y-m-d'); ?>"  name="end" id="end" data-date="" data-date-format="dd-mm-yyyy" data-link-field="any" data-link-format="dd-mm-yyyy">
@@ -159,7 +159,7 @@
         </div>
         <!-- /.col -->
         <div class="col-xs-6">
-          <p class="lead">Tổng cộng: </p>
+          <p class="lead">Tổng hoá đơn: </p>
 
           <div class="table-responsive">
             <table class="table">

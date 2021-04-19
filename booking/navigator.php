@@ -2,7 +2,7 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-      <span class="sr-only">Toggle navigation</span>
+      <span class="sr-only">Chuyển đổi điều hướng</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -10,9 +10,9 @@
     <a class="navbar-brand" href="#"></a>
   </div>
  <ul class="nav navbar-nav navbar-left">
-      <li><a  href="#">Selected Rooms</a></li>
-      <li><a href="#">Booking Details</a></li>
-      <li><a  href="#">Payment</a></li>
+      <li><a  href="#">Chọn phòng</a></li>
+      <li><a href="#">Chi tiết đặt phòng</a></li>
+      <li><a  href="#">Thanh toán</a></li>
      
     </ul>
   <!-- Collect the nav links, forms, and other content for toggling -->

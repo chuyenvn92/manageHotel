@@ -34,8 +34,8 @@ require_once("../../includes/initialize.php");
         <div class="col-xs-12">
           <h2 class="page-header">
             <i class="fa fa-globe"></i>  
-            Dragon House
-            <small class="pull-right">Date: <?php echo date('m/d/Y'); ?></small>
+            KIM HOTEL
+            <small class="pull-right">Ngày: <?php echo date('m/d/Y'); ?></small>
           </h2>
         </div>
         <!-- /.col -->
@@ -59,13 +59,13 @@ require_once("../../includes/initialize.php");
           <table class="table table-striped">
             <thead>
             <tr>
-              <th>Guest</th>
-              <th>Room</th>
-              <th>Price</th>
-              <th>Arrival</th>
-              <th>Departure</th>
-              <th>Night(s)</th>
-              <th>Subtotal</th>
+              <th>Khách hàng</th>
+              <th>Phòng</th>
+              <th>Tổng tiền</th>
+              <th>Ngày đến</th>
+              <th>Ngày đi</th>
+              <th>Số đêm</th>
+              <th>Phụ thu</th>
             </tr>
             </thead>
             <tbody>
@@ -122,12 +122,12 @@ require_once("../../includes/initialize.php");
         </div>
         <!-- /.col -->
         <div class="col-xs-6">
-          <p class="lead">Total Amount</p>
+          <p class="lead">Tổng hoá đơn</p>
 
           <div class="table-responsive">
             <table class="table">
               <tr>
-                <th style="width:50%">Total:</th>
+                <th style="width:50%">Tổng:</th>
                 <td > &euro; <?php echo @$tot ; ?></td>
               </tr>
        

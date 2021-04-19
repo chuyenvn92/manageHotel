@@ -60,7 +60,7 @@ $result=$guest->single_guest($guestid);*/
 
 <div id="accom-title"  > 
     <div  class="pagetitle">   
-            <h1  >Reservation Details
+            <h1  >Chi tiết đặt phòng
                  
             </h1> 
        </div> 
@@ -72,14 +72,14 @@ $result=$guest->single_guest($guestid);*/
            <p>
             <? print(Date("l F d, Y")); ?>
             <br/><br/>
-           Sir/Madam <?php echo $name.' '.$last;?> <br/>
+           Ông/Bà <?php echo $name.' '.$last;?> <br/>
            <?php echo $address;?><br/>
            <?php echo $phone;?> <br/>
            <!-- <?php echo $email;?><br/><br/> -->
-           Dear Sir/Madam. <?php echo $last;?>,<br/><br/>
-           Greetings from dragonhouse Beach Resorts!<br/><br/>
-           Please check the details of your reservation:<br/><br/>
-           <strong>GUEST NAME(S):</strong> <?php echo $name.' '.$last;?>
+           Gửi Ông/Bà, <?php echo $last;?>,<br/><br/>
+           Lời chào từ Kim Hotel<br/><br/>
+           Vui lòng kiểm tra chi tiết đặt phòng:<br/><br/>
+           <strong>Tên khách hàng:</strong> <?php echo $name.' '.$last;?>
 
 
           </p>
@@ -88,13 +88,13 @@ $result=$guest->single_guest($guestid);*/
                   <thead>
               <tr  bgcolor="#999999">
               <!-- <th width="10">#</th> -->
-              <th align="center" width="120">Room Type</th>
+              <th align="center" width="120">Loại phòng</th>
                <th align="center" width="120">Check In</th>
                 <th align="center" width="120">Check Out</th>
-                 <th align="center" width="120">Nights</th>
-              <th  width="120">Price</th>
-               <th align="center" width="120">Room</th>
-              <th align="center" width="90">Amount</th>
+                 <th align="center" width="120">Số đêm</th>
+              <th  width="120">Giá</th>
+               <th align="center" width="120">Phòng</th>
+              <th align="center" width="90">Số tiền</th>
            
               
          
@@ -140,7 +140,7 @@ $result=$guest->single_guest($guestid);*/
           </tbody>
           <tfoot>
                <tr>
-                   <td colspan="5"></td><td align="right"><h5><b>Order Total: </b></h5>
+                   <td colspan="5"></td><td align="right"><h5><b>Tổng hoá đơn: </b></h5>
                    <td align="left">
                   <h5><b> <?php echo '&euro;' . $payable= $days*$result->PRICE; ?></b></h5>
                                    
@@ -152,28 +152,29 @@ $result=$guest->single_guest($guestid);*/
         </table>
 
     
-<p>We are eagerly anticipating your arrival and would like to advise you of the following in order to help you with your trip planning.Your reservation number is <b><?php echo $_SESSION['confirmation']?>:</b><br/><br/>Should there be a concern with your reservation, a customer service representative will contact you. Otherwise, consider your reservation confirmed.</p>
+<p>Chúng tôi rất háo hức mong đợi sự xuất hiện của bạn và muốn thông báo cho bạn những điều sau để giúp bạn lập kế hoạch chuyến đi. Số đặt chỗ của bạn là  <b><?php echo $_SESSION['confirmation']?>:</b><br/><br/>Nếu có thắc mắc về việc đặt chỗ của bạn, đại diện dịch vụ khách hàng sẽ liên hệ với bạn. Nếu không, hãy phòng của bạn đã được xác nhận.</p>
 <ul>
- <li>Function Room rate is &euro; 500.00 for first four hours and &euro; 100.00 for each succeeding hours.</li>
- <li>No pets allowed.</li>
- <li>Outside foods are allowed inside the guest house.</li>
- <li>Check in time is 1pm and Check out time is 12 noon.</li>
- <li>Guest arriving before 1 pm shall be accommodated if rooms are vacant and ready.</li>
- <li>Free WIFI access.</li>
- <li>Room rates inclusive of government tax and service charge.</li>
- <li>Rates are subject to change without prior notice.</li>
- <li>Cancellation notification must be made at least 10 days prior to arrival for refund of deposits. Cancellation received within the 10 days period will result to forfeiture of full deposits.</li>
- <li>We serve Breakfast, Lunch and Dinner upon request with 2 hours notice.</li><br>
-<strong>I have agreed that I will present the following documents upon check in:</strong><br/>
- <li>Copy of BDO Payment.</li>
+ <li>Giá phòng là &euro; 500.000 cho bốn giờ đầu tiên và &euro; 100.000 cho những giờ tiếp theo.</li>
+ <li>Không vật nuôi.</li>
+ <li>Được phép mang đồ ăn từ bên ngoài vào khách sạn.</li>
+ <li>Thời gian nhận phòng là 13pm và thời gian trả phòng là 12pm.</li>
+ <li>Khách hàng đến nhận phòng trước 13pm sẽ được nhận phòng luôn nếu phòng trống.</li>
+ <li>WIFI miễn phí .</li>
+ <li>Giá phòng đã bao gồm thuế và phí dịch vụ.</li>
+ <li>Giá có thể thay đổi mà không báo trước.</li>
+ <li>Thông báo hủy đặt phòng phải được thực hiện ít nhất 10 ngày trước khi đến để được hoàn lại tiền đặt cọc. Nếu hủy trong vòng 10 ngày sẽ bị mất toàn bộ tiền đặt cọc.</li>
+ <li>Chúng tôi phục vụ Bữa sáng, Bữa trưa và Bữa tối theo yêu cầu với thời gian báo trước 2 giờ.</li><br>
+<strong>Tôi đồng ý xuất trình giấy tờ sau khi nhận phòng:</strong><br/>
+ <li>Bản sao của hoá đơn.</li>
  <li>Authorization letter issued by BDO payer for guest/s whose transactions were paid for in his/ her behalf.</li>
  </ul>
-If you have any questions, please email at dragonhouse.com or call (034) 4713 – 135
+ Nếu bạn có bất kỳ câu hỏi nào, vui lòng gửi email theo địa chỉ 
+kimhotelhanoi@gmail.com hoặc gọi 024 3255 5678
 <br/><br/>
-Thank you for choosing dragon house
+Cảm ơn vì đã lựa chọn Kim Hotel
 <br/><br/>
-Respectfully your,<br/><br/>
-Dragon House 
+Trân trọng,<br/><br/>
+Kim Hotel 
 
  
 </form>

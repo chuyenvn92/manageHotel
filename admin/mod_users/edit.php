@@ -83,7 +83,7 @@ $res = $user->single_user($_SESSION['id']);
               "idno"></label>
 
               <div class="col-md-8">
-                <button class="btn btn-primary" name="save" type="submit" >Save</button>
+                <button class="btn btn-primary" name="save" type="submit" >Lưu</button>
               </div>
             </div>
           </div>

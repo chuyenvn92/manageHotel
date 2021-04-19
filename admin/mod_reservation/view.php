@@ -35,15 +35,15 @@ $code=$_GET['code'];
  <div class="col-lg-3">  
           <div class="box box-solid">
             <div class="box-header with-border">
-              <h3 class="box-title ">Guest Information</h3><hr/>
+              <h3 class="box-title ">Thông tin khách hàng</h3><hr/>
             </div>
             <div class="box-body no-padding">
               <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a><i class="fa fa-inbox"></i> FIRSTNAME :
+                <li class="active"><a><i class="fa fa-inbox"></i> Họ :
                   <span class="pull-right"><?php echo $res->G_FNAME; ?></span></a></li>
-                <li class="active"><a><i class="fa fa-envelope-o"></i> LASTNAME :
+                <li class="active"><a><i class="fa fa-envelope-o"></i> Tên :
                 <span class="pull-right"><?php echo $res->G_LNAME; ?></span></a></li>
-                <li class="active"><a><i class="fa fa-file-text-o"></i> ADDRESS : <br/>
+                <li class="active"><a><i class="fa fa-file-text-o"></i> Địa chỉ : <br/>
                 <?php echo $res->G_ADDRESS; ?> </a></li>
                
               </ul>
@@ -57,8 +57,8 @@ $code=$_GET['code'];
 
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Reservation
-                    <small>View Rooms</small>
+                <h1 class="page-header">Đặt phòng
+                    <small>Xem phòng</small>
                 </h1> 
             </div>
      
@@ -102,10 +102,10 @@ $day=dateDiff(date($cur->ARRIVAL),date($cur->DEPARTURE));
                 <li></li>
             </ul>
                  
-                <p><strong>ARRIVAL: </strong><?php echo date_format(date_create($cur->ARRIVAL),'m/d/Y');?></p>
-                <p><strong>DEPARTURE: </strong><?php echo date_format(date_create($cur->DEPARTURE),'m/d/Y'); ?></p>
-                <p><strong>Night(s): </strong><?php echo ($day==0) ? '1' : $day; ?></p>
-                <p><strong>PRICE: </strong>$<?php echo $cur->RPRICE; ?></p>
+                <p><strong>Ngày đến: </strong><?php echo date_format(date_create($cur->ARRIVAL),'m/d/Y');?></p>
+                <p><strong>Ngày đi: </strong><?php echo date_format(date_create($cur->DEPARTURE),'m/d/Y'); ?></p>
+                <p><strong>Số đêm: </strong><?php echo ($day==0) ? '1' : $day; ?></p>
+                <p><strong>Giá phòng: </strong>$<?php echo $cur->RPRICE; ?></p>
                 <!-- <a class="btn btn-danger" href="<?php echo WEB_ROOT .'admin/mod_reservation/controller.php?id='.$cur->RESERVEID.'&action=cancelroom'; ?>">Cancel<i class="fa fa-angle-right"></i></a> -->
             </div>
         </div>
@@ -121,7 +121,7 @@ $day=dateDiff(date($cur->ARRIVAL),date($cur->DEPARTURE));
         <!-- Pager -->
         <div class="row">
             <ul class="pager">
-                <li class="previous"><a href="<?php echo WEB_ROOT .'admin/mod_reservation/index.php'; ?>">&larr; Back</a>
+                <li class="previous"><a href="<?php echo WEB_ROOT .'admin/mod_reservation/index.php'; ?>">&larr; Quay lại</a>
                 </li>
                <?php echo $stats; ?>
             </ul>

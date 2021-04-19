@@ -22,7 +22,7 @@ $res = $guest->single_guest($_GET['id']);
 
 ?>
 
-<h1 align="center">Edit Reservation</h1>
+<h1 align="center">Chỉnh sửa đặt chỗ</h1>
 
 <form class="form-horizontal" action="" method="post" onsubmit="return personalInfo()" name="personal" >
     <!-- Main content -->

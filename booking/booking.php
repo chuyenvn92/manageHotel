@@ -21,7 +21,7 @@ if(isset($_GET['id'])){
  
   <div id="accom-title"  > 
     <div  class="pagetitle">   
-            <h1  >Your Booking Cart 
+            <h1  >Giỏ hàng đặt phòng 
                  
             </h1> 
      </div> 
@@ -32,13 +32,13 @@ if(isset($_GET['id'])){
              <thead>
               <tr  bgcolor="#999999">
               <!-- <th width="10">#</th> -->
-              <th align="center" width="120">Room</th>
+              <th align="center" width="120">Phòng</th>
               <th align="center" width="120">Check In</th>
               <th align="center" width="120">Check Out</th> 
               <th  width="120">Price</th> 
-              <th align="center" width="120">Nights</th> 
-              <th align="center" >Amount</th>
-              <th align="center" width="90">Action</th> 
+              <th align="center" width="120">Số đêm</th> 
+              <th align="center" >Số tiền</th>
+              <th align="center" width="90">Hoạt động</th> 
             </tr> 
           </thead>
           <tbody >
@@ -111,15 +111,15 @@ if(isset($_GET['id'])){
              <?php
              if (isset($_SESSION['dragonhouse_cart'])){
               ?> 
-                 <button type="submit" class="button "name="clear">Clear Cart</button> 
+                 <button type="submit" class="button "name="clear">Xoá khỏi giỏ hàng</button> 
              <?php
              
               if (isset($_SESSION['GUESTID'])){
                 ?>
-                <div  class="button " ><a href="<?php echo WEB_ROOT; ?>booking/index.php?view=payment" name="continue">Continue Booking</a></div>
+                <div  class="button " ><a href="<?php echo WEB_ROOT; ?>booking/index.php?view=payment" name="continue">Tiếp tục đặt phòng</a></div>
                <?php 
               }else{ ?>
-                 <div  class="button " ><a href="<?php echo WEB_ROOT; ?>booking/index.php?view=logininfo"  name="continue">Continue Booking</a></div>
+                 <div  class="button " ><a href="<?php echo WEB_ROOT; ?>booking/index.php?view=logininfo"  name="continue">Tiếp tục đặt phòng</a></div>
              <?php
               }
             }

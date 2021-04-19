@@ -27,7 +27,7 @@
 		  <div class="modal-header">
 		  </div>
 		  <div class="modal-body">
-		  <div class="alert alert-info">Reservation Details</div>
+		  <div class="alert alert-info">Chi tiết đặt phòng</div>
 		  <form  method="post" action="processreservation.php?action=delete">
 
 <?php
@@ -45,15 +45,15 @@ echo $resid;
 
 ?>
 <p>	
-<strong>Confirmation</strong>:<br/>
-<strong>Name</strong><br/>
-<strong>Arrival</strong><br/>
-<strong>Departure</strong><br/>
-<strong>Room</strong><br/>
-<strong>Room Type</strong><br/>
-<strong>Nights</strong><br/>
-<strong>Status</strong><br/>
-<strong>Option</strong><br/>
+<strong>Xác nhận</strong>:<br/>
+<strong>Tên</strong><br/>
+<strong>Ngày đến</strong><br/>
+<strong>Ngày đi</strong><br/>
+<strong>Phòng</strong><br/>
+<strong>Loại phòng</strong><br/>
+<strong>Số đêm</strong><br/>
+<strong>Trạng thái</strong><br/>
+<strong>Lựa chọn</strong><br/>
 </p>
 
 
@@ -63,8 +63,8 @@ echo $resid;
 
 		  </div>
 		  <div class="modal-footer">
-		      <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i> Close</button>
-		      <a href="<?php echo WEB_ROOT; ?>admin/logout.php" class="btn btn-info"><i class="icon-off"></i> Logout</a>
+		      <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i> Đóng</button>
+		      <a href="<?php echo WEB_ROOT; ?>admin/logout.php" class="btn btn-info"><i class="icon-off"></i> Đăng xuất</a>
 		  </div>
 		</div> 
     </div>

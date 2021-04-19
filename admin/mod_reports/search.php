@@ -8,29 +8,29 @@
 		 <input class="form-control" size="20" type="text" value="<?php echo isset($_POST['txtsearch']) ? $_POST['txtsearch'] :'' ?>" Placeholder="Search For...." name="txtsearch" id="txtsearch">
 		 </div>
 		<div class="form-group">
-		<h4>Status :: </h4>
+		<h4>Trạng thái :: </h4>
 		</div>
 		  <div class="form-group">
 		  <select name="categ" class="form-control">
 		  	<option value="Checkedin" <?php echo isset($_POST['categ']) && $_POST['categ'] == 'Checkedin' ? 'selected' :'' ?>>Checkedin</option>
 		  	<option value="Checkedout" <?php echo isset($_POST['categ']) && $_POST['categ'] == 'Checkedout' ? 'selected' :'' ?>>Checkedout</option>
-		  	<option value="Arrival" <?php echo isset($_POST['categ']) && $_POST['categ'] == 'Arrival' ? 'selected' :'' ?>>Arrival</option>
-		  	<option value="Pending" <?php echo isset($_POST['categ']) && $_POST['categ'] == 'Pending' ? 'selected' :'' ?>>Pending</option>
-		  	<option value="Confirmed" <?php echo isset($_POST['categ']) && $_POST['categ'] == 'Confirmed' ? 'selected' :'' ?>>Confirmed</option>
+		  	<option value="Arrival" <?php echo isset($_POST['categ']) && $_POST['categ'] == 'Arrival' ? 'selected' :'' ?>>Chuyển</option>
+		  	<option value="Pending" <?php echo isset($_POST['categ']) && $_POST['categ'] == 'Pending' ? 'selected' :'' ?>>Chờ xử lý</option>
+		  	<option value="Confirmed" <?php echo isset($_POST['categ']) && $_POST['categ'] == 'Confirmed' ? 'selected' :'' ?>>Đã xác nhận</option>
 		  </select>
 		  </div>
 		 <div class="form-group">
-		<h4>Date Filter :: </h4>
+		<h4>Bộ lọc ngày :: </h4>
 		</div>
 		  <div class="form-group">
 		 <input class="form-control date start " size="20" type="text" value="<?php echo (isset($_POST['start'])) ? $_POST['start'] : date('Y-m-d'); ?>" Placeholder="Check In" name="start" id="from" data-date="" data-date-format="yyyy-mm-dd" data-link-field="any" data-link-format="yyyy-mm-dd">
 		 </div>
 		  <div class="form-group">
-		    <label class="sr-only" for="exampleInputPassword2">Check Out:</label>
+		    <label class="sr-only" for="exampleInputPassword2">Ngày checkout:</label>
 		      <input class="form-control date end " size="20" type="text" value="<?php echo (isset($_POST['end'])) ? $_POST['end'] : date('Y-m-d'); ?>"  name="end" id="end" data-date="" data-date-format="yyyy-mm-dd" data-link-field="any" data-link-format="yyyy-mm-dd">
 		  </div>
 		  
-		  <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+		  <button type="submit" name="submit" class="btn btn-primary">Đồng ý</button>
 		</form>
 	
 
@@ -42,14 +42,14 @@
 <thead>
 <tr><td colspan="9" align="center"><h1 class="page-header">Monbela Tourist Inn</h1></td></tr>
 <tr bgcolor="#999999">
-<td ><strong>Guest</strong></td>
-<td ><strong>Arrival</strong></td>
-<td ><strong>Departure</strong></td>
-<td ><strong>Room</strong></td>
-<td ><strong>Price</strong></td>
-<td ><strong>Nights</strong></td>
-<td ><strong>Subtotal</strong></td>
-<td ><strong>Status</strong></td>
+<td ><strong>Khách</strong></td>
+<td ><strong>Ngày đến</strong></td>
+<td ><strong>Rời đi</strong></td>
+<td ><strong>Phòng</strong></td>
+<td ><strong>Giá</strong></td>
+<td ><strong>Số đêm</strong></td>
+<td ><strong>Tổng hoá đơn</strong></td>
+<td ><strong>Trạng thái</strong></td>
 </tr>
 </thead>
 <tbody>		
@@ -97,7 +97,7 @@ if(isset($_POST['submit'])){
 ?>
 </tbody>
 <tfoot>
-	<tr><b><td colspan="6" align="right"><h4>Total</h4></td><td colspan="2"><h4>  &#8369 <?php echo isset($tot) ? $tot : 0; ?></h4></td></b></tr>
+	<tr><b><td colspan="6" align="right"><h4>Tổng hoá đơn</h4></td><td colspan="2"><h4>  &#8369 <?php echo isset($tot) ? $tot : 0; ?></h4></td></b></tr>
 </tfoot>
 </table>
 </span>

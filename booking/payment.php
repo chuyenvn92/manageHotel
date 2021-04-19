@@ -133,7 +133,7 @@ $_SESSION['GUESTID'] =   $lastguest;
  
  <div id="accom-title"  > 
     <div  class="pagetitle">   
-            <h1 >Billing Details 
+            <h1 >Chi tiết hoá đơn
                  
             </h1> 
         </div> 
@@ -141,9 +141,9 @@ $_SESSION['GUESTID'] =   $lastguest;
  
 <div id="bread">
    <ol class="breadcrumb">
-      <li><a href="<?php echo WEB_ROOT ;?>index.php">Home</a> </li> 
-      <li><a href="<?php echo WEB_ROOT ;?>booking/">Booking Cart</a></li>  
-       <li class="active">Booking Details</li>
+      <li><a href="<?php echo WEB_ROOT ;?>index.php">Trang chủ</a> </li> 
+      <li><a href="<?php echo WEB_ROOT ;?>booking/">Giỏ hàng đặt phòng</a></li>  
+       <li class="active">Chi tiết đặt phòng</li>
    </ol> 
 </div> 
 
@@ -172,11 +172,11 @@ $_SESSION['GUESTID'] =   $lastguest;
     </div> 
     <div class="col-md-4 col-sm-2">
       <div class="col-md-12">
-        <label>Transaction Date:</label>
+        <label>Ngày giao dịch:</label>
        <?php echo date("m/d/Y") ; ?>
       </div>
        <div class="col-md-12">
-        <label>Transaction Id:</label>
+        <label>Mã giao dịch:</label>
        <?php echo $_SESSION['confirmation']; ?>
       </div>
       
@@ -192,12 +192,12 @@ $_SESSION['GUESTID'] =   $lastguest;
     <table class="table">
       <thead>
         <tr>
-          <td>Room</td>
-          <td>Arrival</td>
-          <td>Departure</td>
-          <td>Price</td>
-          <td>Night(s)</td>
-          <td>Subtotal</td>
+          <td>Phòng</td>
+          <td>Ngày đến</td>
+          <td>Ngày đi</td>
+          <td>Giá tiền</td>
+          <td>Số đêm</td>
+          <td>Tổng hoá đơn</td>
         </tr>
       </thead> 
       <tbody>
@@ -242,11 +242,11 @@ for ($i=0; $i < $count_cart  ; $i++) {
  
 
     <div class="right"> 
-      <h3 style="text-align: right;">Total: &euro; <?php echo   $_SESSION['pay'] ;?></h3>
+      <h3 style="text-align: right;">Tổng tiền: &euro; <?php echo   $_SESSION['pay'] ;?></h3>
     </div>
     <br>
     <div class="">
-       <button type="submit" class="button"  name="btnsubmitbooking">Submit Booking</button>
+       <button type="submit" class="button"  name="btnsubmitbooking">Đồng ý đặt chỗ</button>
     </div>
   </div>   
 </form>
