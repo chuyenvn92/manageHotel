@@ -74,7 +74,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
 
 <div id="bread">
    <ol class="breadcrumb">
-      <li><a href="<?php echo WEB_ROOT ;?>index.php">Home</a>
+      <li><a href="<?php echo WEB_ROOT ;?>index.php">Trang chủ</a>
       </li>
       <li class="active"><?php print $title  ; ?></li>
       <li  style="color: #02aace; float:right"> <?php print  $msg; ?></li>

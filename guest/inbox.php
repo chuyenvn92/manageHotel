@@ -2,12 +2,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h4>
-        From
-        <small>13 new messages</small>
+        Từ
+        <small>13 tin nhắn mới</small>
       </h4>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Mailbox</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
+        <li class="active">Mail</li>
       </ol>
     </section>
 
@@ -19,7 +19,7 @@
         <div class="col-md-12">
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Inbox</h3>
+              <h3 class="box-title">Hộp thư đến</h3>
 
               <div class="box-tools pull-right">
                 <div class="has-feedback">

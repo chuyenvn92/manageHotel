@@ -1,5 +1,5 @@
 <!-- Contact -->
-<h1>Contact Us</h1>
+<h1>Liên hệ</h1>
   <div class="contact">
     <div class="contact_container">
       <div class="container">
@@ -7,7 +7,7 @@
           <div class="col">
             <div class="section_title text-center">
               <div>Ciao</div>
-              <h1>Say Hello</h1>
+              <h1>Xin chào</h1>
             </div>
             <div class="contact_text text-center">
               <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis.</p>
@@ -24,7 +24,7 @@
                 </div>
                 <input type="text" class="contact_input" placeholder="Subject">
                 <textarea class="contact_input" placeholder="Message" required="required"></textarea>
-                <button class="contact_button">send message</button>
+                <button class="contact_button">Gửi tin nhắn</button>
               </form>
             </div>
           </div>
@@ -49,9 +49,9 @@
           <img class="contact_info_logo_2" src="images/logo_2.png" alt="">
           <div class="contact_info_list">
             <ul class="text-center">
-              <li>132 Liberty Streetelit, Plano, Texas</li>
-              <li>hello@home.com</li>
-              <li>214-805-4428</li>
+              <li>Trung Hòa Nhân Chính, Nhân Chính, Thanh Xuân, Hà Nội</li>
+              <li>kimhotelhanoi@gmail.com</li>
+              <li>024 3255 5678</li>
             </ul>
           </div>
         </div>

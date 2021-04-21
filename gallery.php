@@ -25,7 +25,7 @@
 
 <div id="bread">
    <ol class="breadcrumb">
-      <li><a href="<?php echo WEB_ROOT ;?>index.php">Home</a>
+      <li><a href="<?php echo WEB_ROOT ;?>index.php">Trang chủ</a>
       </li>
       <li class="active"><?php print $title  ; ?></li>
   </ol> 

@@ -51,7 +51,7 @@
            </div>
             <div class="col-md-1 col-sm-1 s">.
              <div class="form-group input-group">
-                          <label>Person</label> 
+                          <label>Số người</label> 
                            <select class=" form-control input-sm " name="person" id="person">
                             <?php $sql ="SELECT distinct(`NUMPERSON`) as 'NumberPerson' FROM `tblroom`";
                                $mydb->setQuery($sql);
@@ -69,7 +69,7 @@
        
            <div class="col-md-1 col-sm-1 s">.
                 <div  class="form-group input-group"> 
-                   <button class="btn btn-primary btn-lg " name="checkAvail" type="submit" id="checkAvail" >Check Availability </button>
+                   <button class="btn btn-primary btn-lg " name="checkAvail" type="submit" id="checkAvail" >Kiểm tra chỗ trống </button>
                   </div>
            </div>
           </div>

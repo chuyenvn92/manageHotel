@@ -3,8 +3,8 @@
       <div class="row">
         <div class="col">
           <div class="section_title text-center">
-            <div>Welcome</div>
-            <h1>Amazing Hotel in front of the Sea</h1>
+            <div>Xin chào</div>
+            <h1>Một khách sạn tuyệt vời ở trong lòng thủ đô Hà Nội</h1>
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@
         <div class="col-xl-6 order-xl-2 order-1">
           <div class="rooms_right_content">
             <div class="section_title">
-              <div>Rooms</div>
+              <div>Phòng</div>
               <h1>Luxury Double Suite</h1>
             </div>
             <div class="rooms_text">
@@ -251,7 +251,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_1.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="#">Weddings</a></h1>
+            <h1><a href="#">Tổ chức đám cưới</a></h1>
           </div>
         </div>
 
@@ -259,7 +259,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_2.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="#">Parties</a></h1>
+            <h1><a href="#">Tổ chức tiệc </a></h1>
           </div>
         </div>
 
@@ -267,7 +267,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_3.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="#">Relax</a></h1>
+            <h1><a href="#">Thư giãn</a></h1>
           </div>
         </div>
 
@@ -283,7 +283,7 @@
       <div class="row">
         <div class="col">
           <div class="section_title text-center">
-            <div>Clients</div>
+            <div>Khách hàng</div>
             <h1>Testimonials</h1>
           </div>
         </div>

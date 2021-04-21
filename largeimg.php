@@ -1,7 +1,7 @@
   
             <!-- Contact Details Column -->
             <div class="col-lg-8">
-                <h3>Contact Details</h3>
+                <h3>Chi tiết liên hệ </h3>
                 <p>
                     3481 Melrose Place<br>Beverly Hills, CA 90210<br>
                 </p>

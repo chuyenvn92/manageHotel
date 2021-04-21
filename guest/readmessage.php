@@ -30,7 +30,7 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
                 $viewTitle = mysqli_fetch_assoc($res);
                 echo $viewTitle['Title'];
             ?> 
-            <small class="pull-right">Date: <?php echo date('m/d/Y'); ?></small>
+            <small class="pull-right">Ngày: <?php echo date('m/d/Y'); ?></small>
           </h2>
         </div>
         <!-- /.col -->
@@ -38,7 +38,7 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
       <!-- info row -->
       <div class="row invoice-info">
         <div class="col-sm-4 invoice-col">
-          From
+          Từ
           <address>
             <strong><?php
                  
@@ -59,7 +59,7 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
         </div>
         <!-- /.col -->
         <div class="col-sm-4 invoice-col">
-          To
+          Đến
           <address>
             <strong><?php echo $result->G_FNAME . ' ' .$result->G_LNAME; ?>
             </strong><br>
@@ -72,12 +72,12 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
         <br/>
           <!-- <b>Invoice #007612</b><br>
           <br> -->
-          <b>Confirmation ID: </b> <p style="background-color:blue;color:white"> <?php echo $result->CONFIRMATIONCODE; ?></p> 
+          <b>Mã xác nhận: </b> <p style="background-color:blue;color:white"> <?php echo $result->CONFIRMATIONCODE; ?></p> 
           <input type="hidden" name="code" value="<?php echo $result->CONFIRMATIONCODE; ?>">
 <br>
-          <b>Transaction Date:</b> <?php echo  Date($result->TRANSDATE); ?>
+          <b>Ngày giao dịch:</b> <?php echo  Date($result->TRANSDATE); ?>
 <br>
-          <b>Account:</b> <?php echo $result->GUESTID; ?>
+          <b>Tài khoản:</b> <?php echo $result->GUESTID; ?>
 
         </div>
         <!-- /.col -->
@@ -99,13 +99,13 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
           <table class="table table-striped">
             <thead>
             <tr>
-              <th>Room</th>
-              <th>Description</th>
-              <th>Price</th>
-              <th>Arrival</th>
-              <th>Departure</th>
-              <th>Night(s)</th>
-              <th>Subtotal</th>
+              <th>Phòng</th>
+              <th>Mô tả</th>
+              <th>Giá</th>
+              <th>Ngày đến</th>
+              <th>Ngày đi</th>
+              <th>Số đêm</th>
+              <th>Tổng</th>
             </tr>
             </thead>
             <tbody>
@@ -150,12 +150,12 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
         </div>
         <!-- /.col -->
         <div class="col-xs-6">
-          <p class="lead">Total Amount</p>
+          <p class="lead">Tổng cộng</p>
 
           <div class="table-responsive">
             <table class="table">
               <tr>
-                <th style="width:50%">Total:</th>
+                <th style="width:50%">Tổng hoá đơn:</th>
                 <td>$<?php echo @$tot ; ?></td>
               </tr>
          <!--      <tr>
@@ -181,7 +181,7 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
       <div class="row no-print">
         <div class="col-xs-12">
           <!-- <a href="<?php echo WEB_ROOT; ?>guest/readprint.php?>" target="_blank" class="btn btn-default"><i class="fa fa-print"></i> Print</a> -->
-          <button type="submit"  ><i class="fa fa-print"></i> Print</button>
+          <button type="submit"  ><i class="fa fa-print"></i> In</button>
   <!--         <button type="button" class="btn btn-success pull-right"><i class="fa fa-credit-card"></i> Submit Payment
           </button>
           <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">

@@ -61,10 +61,10 @@ if (isset($_SESSION['activity'])){
       <!-- Main Nav -->
       <nav class="main_nav">
         <ul class="d-flex flex-row align-items-center justify-content-start">
-           <li><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">About us</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
+           <li><a href="<?php echo WEB_ROOT;?>index.php">Trang chủ</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">Giới thiêụ</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Phòng</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Liên hệ</a></li>
         </ul>
       </nav>
 
@@ -93,7 +93,7 @@ if (isset($_SESSION['activity'])){
         </div> -->
 
         <!-- Header Link -->
-        <div class="header_link"><a href="#">Book Your Room Now</a></div>
+        <div class="header_link"><a href="#">Đặt phòng ngay</a></div>
 
         <!-- Hamburger Button -->
         <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -141,13 +141,13 @@ if (isset($_SESSION['activity'])){
       <!-- Menu Navigation -->
       <nav class="menu_nav text-center">
         <ul>
-          <li><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">About us</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php">Trang chủ</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">Giới thiệu</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Phòng</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Liên hệ</a></li>
         </ul>
       </nav>
-      <div class="button menu_button"><a href="#">book now</a></div>
+      <div class="button menu_button"><a href="#">Đặt phòng ngay</a></div>
 
       <!-- Menu Social -->
       <div class="social menu_social">
@@ -169,9 +169,10 @@ if (isset($_SESSION['activity'])){
   <div class="home">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.jpg" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center justify-content-center">
-      <div class="home_title"><h1>Book Your Stay</h1></div>
-      <div class="home_text text-center">Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor, sit amet elementum lorem. Ut cursus tempor turpis.</div>
-      <div class="button home_button"><a href="#">book now</a></div>
+      <div class="home_title"><h1>Kim Hotel</h1></div>
+      <div class="home_text text-center">We know what you love </div>
+      <div class="home_text text-center">Come and enjoy moment with us </div>
+      <div class="button home_button"><a href="#">Đặt phong ngay</a></div>
     </div>
   </div>
 
@@ -205,14 +206,14 @@ if (isset($_SESSION['activity'])){
                          $cur = $accomodation->listOfaccomodation(); 
                           ?>
                     <select  name="accomodation" id="person">
-                      <option value="0">Accomodation</option>
+                      <option value="0">Chỗ ở</option>
                       <?php  foreach ($cur as $result) { ?>
                           <option value="<?php echo $result->ACCOMODATION; ?>"><?php echo $result->ACCOMODATION; ?></option>
                           <?php  } ?>
                     </select>
                   </div>
                 </div>
-                <button class="booking_form_button ml-lg-auto">book now</button>
+                <button class="booking_form_button ml-lg-auto">Đặt phòng ngay</button>
               </div>
             </form>
           </div>
@@ -248,16 +249,16 @@ if (isset($_SESSION['activity'])){
               <div class="col-lg-4 footer_col">
                 <div class="footer_info d-flex flex-column align-items-lg-end align-items-center justify-content-start">
                   <div class="text-center">
-                    <div>Phone:</div>
-                    <div>+546 990221 123</div>
+                    <div>SĐT:</div>
+                    <div>024 3255 5678</div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 footer_col">
                 <div class="footer_info d-flex flex-column align-items-center justify-content-start">
                   <div class="text-center">
-                    <div>Address:</div>
-                    <div>Main Str, no 23, New York</div>
+                    <div>Địa chỉ:</div>
+                    <div>Trung Hòa Nhân Chính, Nhân Chính, Thanh Xuân, Hà Nội</div>
                   </div>
                 </div>
               </div>
@@ -265,7 +266,7 @@ if (isset($_SESSION['activity'])){
                 <div class="footer_info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
                   <div class="text-center">
                     <div>Mail:</div>
-                    <div>hotel@contact.com</div>
+                    <div>kimhotelhanoi@gmail.com</div>
                   </div>
                 </div>
               </div>
@@ -311,7 +312,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                   <button class="close" data-dismiss="modal" type=
                   "button">×</button>
 
-                  <h4 class="modal-title" id="myModalLabel">Choose Image.</h4>
+                  <h4 class="modal-title" id="myModalLabel">Chọn ảnh.</h4>
                 </div>
 
                 <form action="<?php echo WEB_ROOT; ?>guest/update.php" enctype="multipart/form-data" method=
@@ -337,8 +338,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
                   <div class="modal-footer">
                     <button class="btn btn-default" data-dismiss="modal" type=
-                    "button">Close</button> <button class="btn btn-primary"
-                    name="savephoto" type="submit">Upload Photo</button>
+                    "button">Đóng</button> <button class="btn btn-primary"
+                    name="savephoto" type="submit">Tải ảnh lên</button>
                   </div>
                 </form>
               </div><!-- /.modal-content -->

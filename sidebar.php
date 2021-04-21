@@ -13,7 +13,7 @@
 <div id="sidebarRight-wrap">   
         <div class="row">
           <div class="col-md-10 block">
-            <h3> Book a Room</h3> 
+            <h3> Đặt phòng</h3> 
           </div> 
         </div> 
 
@@ -54,7 +54,7 @@
         <div class="row">
           <div class="col-md-10">
                 <div class="form-group input-group">
-                   <label>Person</label> 
+                   <label>Số người</label> 
                    <select class=" form-control input-sm " name="person" id="person">
                   <?php $sql ="SELECT distinct(`NUMPERSON`) as 'NumberPerson' FROM `tblroom`";
                      $mydb->setQuery($sql);
@@ -86,7 +86,7 @@
    <div class="descRoom">
            <div class="row">
           <div class="col-md-10 block">
-            <h3>Types of Rooms</h3> 
+            <h3>Loại phòng</h3> 
           </div> 
         </div> 
               <ul  class="a"> 

@@ -37,9 +37,9 @@
                         <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
-                        Admin 
+                        Quản lý 
                       </h4>
-                      <p>Reservation is already <?php echo   $row['STATUS']; ?>.. </p> 
+                      <p>Phòng đã đặt trước <?php echo   $row['STATUS']; ?>.. </p> 
                     </a>
                   </li>
                 </ul>
@@ -66,15 +66,15 @@ $result = $g->single_guest($_SESSION['GUESTID']);
               <h3 class="widget-user-username"><?php echo $_SESSION['name']. ' ' . $_SESSION['last']; ?> </h3> 
             </li> 
                 <li><a style="color:#000;text-align:left;border-bottom:1px solid #fff;"
-                    href="<?php echo WEB_ROOT ;  ?>guest/profile.php" data-toggle="lightbox" >Account </a></li> 
+                    href="<?php echo WEB_ROOT ;  ?>guest/profile.php" data-toggle="lightbox" >Tài khoản </a></li> 
                 <li><a style="color:#000;text-align:left;border-bottom:1px solid #fff;" 
-                href="<?php echo WEB_ROOT ;  ?>guest/bookinglist.php" data-toggle="lightbox">Bookings </a></li>
-                <li><a style="color:#000;text-align:left;border-bottom:1px solid #fff;" href="<?php echo WEB_ROOT.'logout.php';  ?>">Logout </a></li> 
+                href="<?php echo WEB_ROOT ;  ?>guest/bookinglist.php" data-toggle="lightbox">Đặt chỗ </a></li>
+                <li><a style="color:#000;text-align:left;border-bottom:1px solid #fff;" href="<?php echo WEB_ROOT.'logout.php';  ?>">Đăng xuất </a></li> 
             </ul>
 
           </li>
           <?php }else { ?>
-            <li><a     data-target="#LoginModal" data-toggle="modal"  title="Login Guest"  href="">Login
+            <li><a     data-target="#LoginModal" data-toggle="modal"  title="Login Guest"  href="">Đăng nhập
              </a>
              </li>
         <?php  } ?>
@@ -101,13 +101,13 @@ $result = $g->single_guest($_SESSION['GUESTID']);
                                    <div class="form-group">
                                       <div class="col-md-12"> 
                                         <label class="control-label" for=
-                                        "U_USERNAME">Username:</label> 
+                                        "U_USERNAME">Tên tài khoản:</label> 
                                               <input   id="U_USERNAME" name="U_USERNAME" placeholder="Username" type="text" class="form-control input" >  
                                       </div> 
                      
                                       <div class="col-md-12">
                                         <label class="control-label" for=
-                                        "U_PASS">Password:</label> 
+                                        "U_PASS">Mật khẩu:</label> 
                                          <input name="U_PASS" id="U_PASS" placeholder="Password" type="password" class="form-control input ">
                                  
                                       </div> 
@@ -116,7 +116,7 @@ $result = $g->single_guest($_SESSION['GUESTID']);
                   </div> 
                 </div>
                   <div class="modal-footer">  
-                         <button type="button" name="btnLogin" class="btnLoginModal button">Sign In</button> 
+                         <button type="button" name="btnLogin" class="btnLoginModal button">Đăng nhập</button> 
                   </div>  
                  </form>  
               </div><!-- /.modal-content -->

@@ -1,4 +1,4 @@
-<h1>About Us</h1>
+<h1>Giới thiệu</h1>
   <div class="intro">
     <div class="container">
       <div class="row row-eq-height">
@@ -7,8 +7,8 @@
         <div class="col-lg-6">
           <div class="intro_content">
             <div class="section_title">
-              <div>Hello</div>
-              <h1>Amazing Hotel in front of the Sea</h1>
+              <div>Xin chào</div>
+              <h1>Khách sạn tuyệt vời nằm trong nội thành của thành phố</h1>
             </div>
             <div class="intro_text">
               <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperdiet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus.</p>

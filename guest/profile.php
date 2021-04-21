@@ -12,8 +12,8 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        My Account 
-        <small>Account Details</small>
+       Tài khoản của tôi 
+        <small>Chi tiết tài khoản</small>
       </h1> 
     </section>
 
@@ -36,7 +36,7 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
                 <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "name">FIRST NAME:</label>
+                        "name">Họ:</label>
 
                         <div class="col-md-8">
                           <input name="" type="hidden">
@@ -48,7 +48,7 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
                       <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "last">LAST NAME:</label>
+                        "last">Tên:</label>
 
                         <div class="col-md-8">
                           <input name="last" type="text" value="<?php echo $res->G_LNAME; ?>" class="form-control input-sm" id="last" />
@@ -61,7 +61,7 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
                      <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "city">CITY:</label>
+                        "city">Thành phố:</label>
 
                         <div class="col-md-8">
                           <input name="city" type="text" value="<?php echo $res->G_CITY; ?>" class="form-control input-sm" id="city" />
@@ -71,7 +71,7 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
                      <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "address">ADDRESS:</label>
+                        "address">Địa chỉ:</label>
 
                         <div class="col-md-8">
                           <input name="address" type="text" value="<?php echo $res->G_ADDRESS; ?>" class="form-control input-sm" id="address" />
@@ -82,7 +82,7 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
                       <div class="form-group  ">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "dbirth">DATE OF BIRTH:</label>
+                        "dbirth">Ngày sinh:</label>
 
                         <div class="col-md-8 input-group">
                            <input type="text" data-date="" data-date-format="yyyy-mm-dd" data-link-field="any" 
@@ -100,7 +100,7 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
                      <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "phone">PHONE:</label>
+                        "phone">Số điện thoại:</label>
 
                         <div class="col-md-8">
                           <input name="phone" type="text" value="<?php echo $res->G_PHONE; ?>" class="form-control input-sm" id="phone" />
@@ -111,7 +111,7 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
                      <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "nationality">NATIONALITY:</label>
+                        "nationality">Quốc tịch:</label>
 
                         <div class="col-md-8">
                           <input name="nationality" type="text" value="<?php echo $res->G_NATIONALITY; ?>" class="form-control input-sm" id="nationality" />
@@ -122,7 +122,7 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
                        <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "company">COMPANY:</label>
+                        "company">Công ty:</label>
 
                         <div class="col-md-8">
                           <input name="company" type="text" value="<?php echo $res->G_COMPANY; ?>" class="form-control input-sm" id="company" />
@@ -132,7 +132,7 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
                         <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "caddress">ADDRESS:</label>
+                        "caddress">Quê quán:</label>
 
                         <div class="col-md-8">
                           <input name="caddress" type="text" value="<?php echo $res->G_CADDRESS; ?>" class="form-control input-sm" id="caddress" />
@@ -167,7 +167,7 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
                     <div class="form-group">
                       <div class="col-md-10">
                         <label class="col-md-4 control-label" for=
-                        "zip">ZIP CODE:</label>
+                        "zip">Mã code:</label>
 
                         <div class="col-md-8">
                           <input name="zip" type="text" value="<?php echo $res->ZIP; ?>" class="form-control input-sm" id="zip" />

@@ -122,7 +122,7 @@ require_once("includes/initialize.php");
                                   </td>
                                   <td>
                                     <div class="col-2">
-                                    <label>Enter your password :</label>
+                                    <label>Nhập mật khẩu :</label>
                                     <input type="hidden" id="GUESTID" value="<?php echo  $row['GUESTID']; ?>">
                                     <input type="password" class="input" id="ShaPass" /> 
                                     </div>
@@ -130,7 +130,7 @@ require_once("includes/initialize.php");
                                 </tr>
                                 <tr>
                                   <td colspan="2"></td>
-                                  <td><button id="btnResetPassword" class="btnResetPass btn btn-primary">Password Reset</button></td>
+                                  <td><button id="btnResetPassword" class="btnResetPass btn btn-primary">Nhập lại mật khẩu</button></td>
                                 </tr>
                                 <tr>
                                   <td></td>

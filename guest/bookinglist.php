@@ -16,7 +16,7 @@ require_once ("../includes/initialize.php");
         		</td> -->
 				<td width="87%" align="center">
 				<!-- <h3 >Monbela Tourist Inn</h3> -->
-				<h2>List Booked Rooms 
+				<h2>Danh sách phòng đã đặt 
 				</h2>
 				</td>
 			</tr>
@@ -31,12 +31,12 @@ require_once ("../includes/initialize.php");
 		<table id="table" class="fixnmix-table">
 			<thead>
 				<tr>
-					<th align="center" width="120">Room</th>
+					<th align="center" width="120">Phòng</th>
 		              <th align="center" width="120">Check In</th>
 		              <th align="center" width="120">Check Out</th> 
-		              <th  width="120">Price</th> 
-		              <th align="center" width="120">Nights</th>
-		              <th align="center" width="90">Amount</th>
+		              <th  width="120">Giá</th> 
+		              <th align="center" width="120">Số đêm</th>
+		              <th align="center" width="90">Tổng tiền</th>
 				</tr>
 				</thead>
 				<tbody>
