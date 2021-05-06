@@ -24,7 +24,7 @@
               
               <!-- Slide -->
               <div class="gallery_slide">
-                <img src="images/gallery_1.jpg" alt="">
+                <img src="images/gallery_1.png" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     <a href="#">
@@ -37,7 +37,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img src="images/gallery_2.jpg" alt="">
+                <img src="images/gallery_2.png" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     <a href="#">
@@ -50,7 +50,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img src="images/gallery_3.jpg" alt="">
+                <img src="images/gallery_3.png" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     <a href="#">
@@ -63,7 +63,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img src="images/gallery_4.jpg" alt="">
+                <img src="images/gallery_4.png" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     <a href="#">
@@ -100,12 +100,12 @@
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_3.jpg)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_4.jpg)"></div>
               </div>
 
             </div>
@@ -196,12 +196,12 @@
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_5.jpg)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_6.jpg)"></div>
               </div>
               
             </div>

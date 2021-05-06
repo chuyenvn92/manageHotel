@@ -10,7 +10,7 @@
               <h1>Xin chào</h1>
             </div>
             <div class="contact_text text-center">
-              <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis.</p>
+              <p>Khách sạn tuyệt vời giữa lòng Hà Nội</p>
             </div>
             <div class="contact_form_container">
               <form action="#" class="contact_form text-center">

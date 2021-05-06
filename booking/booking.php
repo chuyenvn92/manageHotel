@@ -21,7 +21,7 @@ if(isset($_GET['id'])){
  
   <div id="accom-title"  > 
     <div  class="pagetitle">   
-            <h1  >Giỏ hàng đặt phòng 
+            <h1>Phòng đã chọn 
                  
             </h1> 
      </div> 

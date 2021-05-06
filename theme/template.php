@@ -13,7 +13,7 @@ $_SESSION['to']  = $_POST['to'];
  <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Marimar</title>
+<title>Kim Hotel </title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Marimar Hotel template project">
@@ -54,9 +54,9 @@ if (isset($_SESSION['activity'])){
 <div class="super_container">
   <header class="header">
     <div class="header_content d-flex flex-column align-items-center justify-content-lg-end justify-content-center">
-      
+    <div class="home_title"><h1>Kim Hotel</h1></div>
       <!-- Logo -->
-      <div class="logo"><a href="#"><img class="logo_1" src="<?php echo WEB_ROOT;?>images/logo.png" alt=""><img class="logo_2" src="<?php echo WEB_ROOT;?>images/logo_2.png" alt=""><img class="logo_3" src="<?php echo WEB_ROOT;?>images/logo_3.png" alt=""></a></div>
+      <!-- <div class="logo"><a href="#"><img class="logo_1" src="<?php echo WEB_ROOT;?>images/logo.png" alt=""><img class="logo_2" src="<?php echo WEB_ROOT;?>images/logo_2.png" alt=""><img class="logo_3" src="<?php echo WEB_ROOT;?>images/logo_3.png" alt=""></a></div> -->
 
       <!-- Main Nav -->
       <nav class="main_nav">
@@ -73,10 +73,10 @@ if (isset($_SESSION['activity'])){
         <ul class="d-flex flex-row align-items-center justify-content-start">
   
 
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li> -->
         </ul>
       </div>
 
@@ -93,86 +93,29 @@ if (isset($_SESSION['activity'])){
         </div> -->
 
         <!-- Header Link -->
-        <div class="header_link"><a href="#">Đặt phòng ngay</a></div>
+        <!-- <div class="header_link"><a href="#">Đặt phòng ngay</a></div> -->
 
         <!-- Hamburger Button -->
-        <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 
       </div>
 
       <!-- Search Panel -->
-      <div class="search_panel">
-        <div class="search_panel_content d-flex flex-row align-items-center justify-content-start">
-          <img src="<?php echo WEB_ROOT;?>images/search.png" alt="">
-          <form action="#" class="search_form">
-            <input type="text" class="search_input" placeholder="Type your search here" required="required">
-          </form>
-          <div class="search_close ml-auto d-flex flex-column align-items-center justify-content-center"><div></div></div>
-        </div>
-      </div>
     </div>
       
   </header>
 
   <!-- Logo Overlay -->
-
-  <div class="logo_overlay">
-    <div class="logo_overlay_content d-flex flex-column align-items-center justify-content-center">
-      <div class="logo"><a href="#"><img src="<?php echo WEB_ROOT;?>images/logo_3.png" alt=""></a></div>
-    </div>
-  </div>
-
-  <!-- Menu Overlay -->
-
-  <div class="menu_overlay">
-    <div class="menu_overlay_content d-flex flex-row align-items-center justify-content-center">
-      
-      <!-- Hamburger Button -->
-      <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
-
-    </div>
-  </div>
-
   <!-- Menu -->
-
-  <div class="menu">
-    <div class="menu_container d-flex flex-column align-items-center justify-content-center">
-
-      <!-- Menu Navigation -->
-      <nav class="menu_nav text-center">
-        <ul>
-          <li><a href="<?php echo WEB_ROOT;?>index.php">Trang chủ</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">Giới thiệu</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Phòng</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Liên hệ</a></li>
-        </ul>
-      </nav>
-      <div class="button menu_button"><a href="#">Đặt phòng ngay</a></div>
-
-      <!-- Menu Social -->
-      <div class="social menu_social">
-        <ul class="d-flex flex-row align-items-center justify-content-start">
-          <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-
-    </div>
-  </div>
-
 
   <!-- Home -->
 
   <div class="home">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.jpg" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center justify-content-center">
-      <div class="home_title"><h1>Kim Hotel</h1></div>
-      <div class="home_text text-center">We know what you love </div>
+      <!-- <div class="home_title"><h1>Kim Hotel</h1></div> -->
+      <div class="home_text text-center">...</div>
       <div class="home_text text-center">Come and enjoy moment with us </div>
-      <div class="button home_button"><a href="#">Đặt phong ngay</a></div>
+      <!-- <div class="button home_button"><a href="#">Đặt phòng ngay</a></div> -->
     </div>
   </div>
 
@@ -190,7 +133,7 @@ if (isset($_SESSION['activity'])){
                   <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" name="departure" required="required" value="<?php echo isset($_POST['departure']) ? $_POST['departure'] : date('m/d/Y');?>" ></div>
                   <div class="custom-select">
                     <select name="person" id="person">
-                      <option value="0">Person</option>
+                      <option value="0">Số người </option>
                       <?php $sql ="SELECT distinct(`NUMPERSON`) as 'NumberPerson' FROM `tblroom`";
                                $mydb->setQuery($sql);
                              $cur = $mydb->loadResultList(); 
@@ -273,7 +216,7 @@ if (isset($_SESSION['activity'])){
             </div>
           </div>
           <div class="footer_bar text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          <script>document.write(new Date().getFullYear());<i class="fa fa-heart-o" aria-hidden="true"> </script> Đồ án tốt nghiệp| Nguyễn Thị Ánh - 68DCHT21  <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank"></a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
         </div>
       </div>

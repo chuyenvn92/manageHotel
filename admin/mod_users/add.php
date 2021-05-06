@@ -51,7 +51,7 @@
               <div class="col-md-8">
                 <select class="form-control input-sm" name="ROLE" id="ROLE">
                   <option value="Administrator">Quản lý</option>
-                    <option value="Guest In-charge">Khách hàng</option>
+                    <option value="Guest In-charge">Nhân viên</option>
                   <!-- <option value="Encoder">Encoder</option> -->
                 </select> 
               </div>

@@ -26,9 +26,9 @@ if(isset($_POST['booknow'])){
  $days = dateDiff($_POST['arrival'],$_POST['departure']); 
 
 if($days <= 0){
-  $msg = 'Available room today';
+  $msg = 'Không còn phòng cho ngày đã chọn';
 }else{
-   $msg =  'Available room From:'.$_POST['arrival']. ' To: ' .$_POST['departure'];
+   $msg =  'Đặt phòng từ ngày: '.date("d-m-Y",strtotime($_POST['arrival'])). ' đến ngày: ' .date("d-m-Y",strtotime($_POST['departure']));
 
 } 
 
@@ -46,7 +46,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
  <div class="row">
 
         <div class="col">
-            <p><?php echo $msg  . $accomodation;?>  </p>
+            <h3 class="text-center" style="margin-top: 15px; margin-bottom: 25px;"><b><?php echo $msg  . $accomodation;?>  </b></h3>
           <div class="card-columns">
 
 
@@ -80,9 +80,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                   $curs = $mydb->loadResultList(); 
                      
                      $resNum = $result->OROOMNUM - count($curs) ;
-                         
-
-
+                        
                     $stats = $mydb->executeQuery();
                     $rows = mysqli_fetch_assoc($stats);
                     $status=$rows['STATUS'];
@@ -118,7 +116,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                  <div class="form-group">
                         <div class="row">
                           <div class="col-xs-12 col-sm-12">
-                            <input type="submit" class="button rooms_button"  id="booknow" name="booknow" onclick="return validateBook();" value="Book Now!"/>
+                            <input type="submit" class="button rooms_button"  id="booknow" name="booknow" onclick="return validateBook();" value="Đặt ngay!"/>
                                                    
                            </div>
                         </div>
@@ -129,8 +127,8 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                                 <h5>'.$result->ROOM . ' <br/> '.$result->ROOMDESC.'  <br/>
                                 ' . $result->ACCOMODATION .' <br/> 
                                 '.$result->ACCOMDESC . '<br/>  
-                                Number of Person:' . $result->NUMPERSON .' <br/> 
-                                Price:'.$result->PRICE.'</h5>    
+                                Số người:' . $result->NUMPERSON .' <br/> 
+                                Giá:'.$result->PRICE.'</h5>    
                             </figcaption>
 
 
@@ -143,7 +141,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                  <div class="form-group">
                         <div class="row">
                           <div class="col-xs-12 col-sm-12">
-                            <input type="submit" class="button rooms_button"  id="booknow" name="booknow" onclick="return validateBook();" value="Book Now!"/>
+                            <input type="submit" class="button rooms_button"  id="booknow" name="booknow" onclick="return validateBook();" value="Đặt ngay"/>
                                                    
                            </div>
                         </div>
@@ -187,11 +185,11 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                               </li> 
                               <li class="d-flex flex-row align-items-center justify-content-start">
                                 <img src="images/check.png" alt="">
-                                <span>Remaining Rooms :<?php echo  $resNum ;?></span>
+                                <span>Phòng trống :<?php echo  $resNum ;?></span>
                               </li>
                             </ul>
                           </div>
-                          <div class="rooms_price"><?php echo   $result->PRICE ;?>/<span>Số đêm</span></div>
+                          <div class="rooms_price"><?php echo number_format($result->PRICE) ;?> VNĐ/<span>Đêm</span></div>
                            <?php echo $btn ; ?> 
                         </div>
                       </div>

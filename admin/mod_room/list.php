@@ -43,7 +43,7 @@
 						echo '<td>'. $result->ACCOMODATION.'</td>';
 				  		echo '<td>'. $result->NUMPERSON.'</td>';
 				  		
-				  		echo '<td> &euro;'. $result->PRICE.'</td>';
+				  		echo '<td>'. number_format($result->PRICE).' VNĐ</td>';
 				  		// echo '<td>'.$result->ROOMNUM.' </td>';
 				  		echo '</tr>';
 				  	} 

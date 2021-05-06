@@ -60,7 +60,7 @@ $mydb->setQuery($sql);
 $mydb->executeQuery(); 
 
  
-message("Reservation Upadated successfully!", "success");
+message("Cập nhật trạng thái đặt phòng thành công!", "success");
 redirect('index.php');
 
 
