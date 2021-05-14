@@ -11,7 +11,7 @@
       <div class="row intro_row">
         <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
           <div class="intro_text text-center">
-            <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperdiet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus.</p>
+            <p>Kim Hotel là một nơi nghỉ dưỡng tuyệt với của bạn và người thân, với thiết kế bắt mắt và mới mẻ giúp tinh thần bạn thư giãn hơn sau những giờ làm việc căng thẳng và tìm những nơi nghỉ ngơi sau những ngày tháng mệt mỏi. Vị trí của khách sạn được toạ lạc giữa lòng thủ đô, giúp bạn có thể dễ dàng đi lại giữa những điểm tham quan của thủ đô Hà Nội, đến với Kim Hotel bạn sẽ cảm nhận được sự giao thoa giữa Châu Á và Châu Âu  </p>
           </div>
         </div>
       </div>
@@ -117,28 +117,28 @@
           <div class="rooms_right_content">
             <div class="section_title">
               <div>Phòng</div>
-              <h1>Luxury Double Suite</h1>
+              <h1>Studio</h1>
             </div>
             <div class="rooms_text">
-              <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque.</p>
+              <p>Phòng Studio được thiết kế theo mỗi chủ đề nhất định, bạn có thể linh hoạt lựa chọn các chủ đề khác nhau hoặc những thiết kế từ coor điển đến hiện đại.</p>
             </div>
             <div class="rooms_list">
               <ul>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Morbi tempus malesuada erat sed</span>
+                  <span>Phòng có sức chứa tối đa 2 người</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Tempus malesuada erat sed</span>
+                  <span>Đầy đủ đồ dùng cá nhân</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Pellentesque vel neque finibus elit</span>
+                  <span>Có dịch vụ dọn phòng miễn phí</span>
                 </li>
               </ul>
             </div>
-            <div class="rooms_price">$129/<span>Night</span></div>
+            <div class="rooms_price">300.000VNĐ/<span>Đêm</span></div>
            
           </div>
         </div>
@@ -157,29 +157,29 @@
         <div class="col-xl-6">
           <div class="rooms_left_content">
             <div class="section_title">
-              <div>Rooms</div>
-              <h1>Luxury Single Room</h1>
+              <div>Phòng</div>
+              <h1>Vip</h1>
             </div>
             <div class="rooms_text">
-              <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque.</p>
+              <p>Phòng Vip bạn sẽ được trải nghiệm những dịch vụ như tổ chức tiệc, kỷ niệm tình yêu. Với thiết kế rông rãi hơn so với phòng Studio chúng tôi sẽ đem lại cho bạn những kỷ niệm tuyệt với bên bạn bè và người thân trong không gian mở, nó sẽ giúp bạn có những sự kiên đáng nhớ tại đây. </p>
             </div>
             <div class="rooms_list">
               <ul>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Morbi tempus malesuada erat sed</span>
+                  <span>Sức chứa tối đa 6-10 người</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Tempus malesuada erat sed</span>
+                  <span>Trải nghiệm những dịch vụ sự kiên bên bạn bè và người thân</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Pellentesque vel neque finibus elit</span>
+                  <span>Miễn phí một bữa ăn nhẹ</span>
                 </li>
               </ul>
             </div>
-            <div class="rooms_price">$89/<span>Night</span></div>
+            <div class="rooms_price">500.000VNĐ/<span>Đêm (chưa tính phí dịch vụ)</span></div>
            
           </div>
         </div>
@@ -222,21 +222,21 @@
         <div class="row">
           <div class="col-lg-5">
             <div class="section_title">
-              <div>Hotel</div>
-              <h1>Discover Marimar Hotel</h1>
+              <div>Kim Hotel</div>
+              <h1>Dịch vụ sự kiện của khách sạn</h1>
             </div>
           </div>
         </div>
         <div class="row discover_row">
           <div class="col-lg-5">
             <div class="discover_highlight">
-              <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur.</p>
+              <p>Hãy cùng bạn bè và người thân có nhưng trải nghiệm tại Kim Hotel</p>
             </div>
             <!-- <div class="button discover_button"><a href="#">discover</a></div> -->
           </div>
           <div class="col-lg-7">
             <div class="discover_text">
-              <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue.</p>
+              <p>Tại đây chúng tôi hân hạnh đồng hành cùng khách hàng trải nghiệm những sự kiện quan trọng của bạn, chúng tôi sẽ giúp khách hàng có những trải nghiệm khó quên tại đây cùng bạn bè và người thân. </p>
             </div>
           </div>
         </div>
@@ -284,7 +284,7 @@
         <div class="col">
           <div class="section_title text-center">
             <div>Khách hàng</div>
-            <h1>Testimonials</h1>
+            <h1>Trải nghiệm của khách hàng</h1>
           </div>
         </div>
       </div>
@@ -298,33 +298,33 @@
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
+                  <p>"Nhân viên rất thân thiện, các dịch vụ của khách sạn giúp chúng tôi có một kì nghỉ đáng nhớ"</p>
                 </div>
                 <div class="testimonial_author text-center">
-                  <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
-                  <div class="testimonial_author_name"><a href="#">Maria Smith,</a><span> Client</span></div>
+                  <div class="testimonial_author_image"><img src="images/author_2.jpeg" alt=""></div>
+                  <div class="testimonial_author_name"><a href="#">Nguyễn Thị Mai Anh,</a><span> Khách hàng</span></div>
                 </div>
               </div>
 
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
+                  <p>Cảm ơn Kim Hotel đã giúp tôi tổ chức tiệc cưới tại đây, đây là một sự kiện quan trọng của tôi và vợ tôi.</p>
                 </div>
                 <div class="testimonial_author text-center">
-                  <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
-                  <div class="testimonial_author_name"><a href="#">Maria Smith,</a><span> Client</span></div>
+                  <div class="testimonial_author_image"><img src="images/author_1.jpeg" alt=""></div>
+                  <div class="testimonial_author_name"><a href="#">Nguyễn Nam Anh,</a><span> Khách hàng</span></div>
                 </div>
               </div>
 
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
+                  <p>Hôm đó là sinh nhật của mình và mình đang loay hoay tìm chỗ đặt tiệc, thì được bạn mình giới thiệu đến với Kim Hotel, và đó là một sinh nhật đáng nhớ của mình, dịch vụ rất chuyên nghiệp, cảm ơn Kim Hotel</p>
                 </div>
                 <div class="testimonial_author text-center">
-                  <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
-                  <div class="testimonial_author_name"><a href="#">Maria Smith,</a><span> Client</span></div>
+                  <div class="testimonial_author_image"><img src="images/author_3.jpeg" alt=""></div>
+                  <div class="testimonial_author_name"><a href="#">Nguyễn Kim Anh,</a><span> Khách hàng</span></div>
                 </div>
               </div>
 

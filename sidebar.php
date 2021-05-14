@@ -21,7 +21,7 @@
           <div class="col-md-10">
             
                 <div class="form-group input-group"> 
-                  <label>Arrival</label> 
+                  <label>Đến</label> 
                   <input type="text" data-date="" data-date-format="yyyy-mm-dd" data-link-field="any" 
                            data-link-format="yyyy-mm-dd"
                            name="arrival" id="date_pickerfrom"  
@@ -38,7 +38,7 @@
         <div class="row">
           <div class="col-md-10">
              <div class="form-group input-group"> 
-                <label>Departure</label> 
+                <label>Đi</label> 
                 <input type="text" data-date="" data-date-format="yyyy-mm-dd" data-link-field="any" 
                        data-link-format="yyyy-mm-dd"
                        name="departure" id="date_pickerto" 

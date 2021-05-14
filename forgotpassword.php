@@ -110,7 +110,7 @@ require_once("includes/initialize.php");
                     <div class="col-md-6 col-md-offset-3">
                         <div class="panel panel-success">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Reset Password</h3>
+                                <h3 class="panel-title">Cập nhập lại mật khẩu</h3>
                             </div> 
                             <div class="panel-body"> 
                               <div id="ErrorMSGpass"></div>

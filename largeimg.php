@@ -3,15 +3,15 @@
             <div class="col-lg-8">
                 <h3>Chi tiết liên hệ </h3>
                 <p>
-                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                Trung Hòa Nhân Chính, Nhân Chính, Thanh Xuân, Hà Nội<br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                    <abbr title="Phone">Số điện thoại</abbr>: 024 3255 5678</p>
                 <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                    <abbr title="Email">Email</abbr>: <a href="mailto:name@example.com">kimhotelhanoi@gmail.com</a>
                 </p>
                 <p><i class="fa fa-clock-o"></i> 
-                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                    <abbr title="Hours">Giờ</abbr>: Thứ Hai - Thứ Sáu: 9:00 Sáng đến 5:00 Chiều</p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
                         <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>

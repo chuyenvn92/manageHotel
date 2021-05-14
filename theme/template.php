@@ -62,7 +62,7 @@ if (isset($_SESSION['activity'])){
       <nav class="main_nav">
         <ul class="d-flex flex-row align-items-center justify-content-start">
            <li><a href="<?php echo WEB_ROOT;?>index.php">Trang chủ</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">Giới thiêụ</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">Giới thiệu</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Phòng</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Liên hệ</a></li>
         </ul>
@@ -113,8 +113,10 @@ if (isset($_SESSION['activity'])){
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.jpg" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center justify-content-center">
       <!-- <div class="home_title"><h1>Kim Hotel</h1></div> -->
-      <div class="home_text text-center">...</div>
+      <div class="home_text text-center">Welcom to Kim Hotel</div>
       <div class="home_text text-center">Come and enjoy moment with us </div>
+      <div class="home_text text-center">Chào mừng bạn đến với Kim Hotel </div>
+      <div class="home_text text-center">Chúc bạn sẽ có trải nghiệm tuyệt với tại Kim Hotel </div>
       <!-- <div class="button home_button"><a href="#">Đặt phòng ngay</a></div> -->
     </div>
   </div>
@@ -255,7 +257,7 @@ if (isset($_SESSION['activity'])){
                   <button class="close" data-dismiss="modal" type=
                   "button">×</button>
 
-                  <h4 class="modal-title" id="myModalLabel">Chọn ảnh.</h4>
+                  <h4 class="modal-title" id="myModalLabel">Chọn ảnh</h4>
                 </div>
 
                 <form action="<?php echo WEB_ROOT; ?>guest/update.php" enctype="multipart/form-data" method=

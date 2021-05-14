@@ -10,7 +10,7 @@
               <h1>Xin chào</h1>
             </div>
             <div class="contact_text text-center">
-              <p>Khách sạn tuyệt vời giữa lòng Hà Nội</p>
+              <p>Khách sạn tuyệt vời giữa lòng thử đô Hà Nội</p>
             </div>
             <div class="contact_form_container">
               <form action="#" class="contact_form text-center">

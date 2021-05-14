@@ -11,7 +11,7 @@
               <h1>Khách sạn tuyệt vời nằm trong nội thành của thành phố</h1>
             </div>
             <div class="intro_text">
-              <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperdiet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus.</p>
+              <p>Kim Hotel là một nơi nghỉ dưỡng tuyệt với của bạn và người thân, với thiết kế bắt mắt và mới mẻ giúp tinh thần bạn thư giãn hơn sau những giờ làm việc căng thẳng và tìm những nơi nghỉ ngơi sau những ngày tháng mệt mỏi. Vị trí của khách sạn được toạ lạc giữa lòng thủ đô, giúp bạn có thể dễ dàng đi lại giữa những điểm tham quan của thủ đô Hà Nội, đến với Kim Hotel bạn sẽ cảm nhận được sự giao thoa giữa Châu Á và Châu Âu.</p>
             </div>
            <!--  <div class="button intro_button"><a href="#">read more</a></div> -->
           </div>
@@ -36,8 +36,8 @@
       <div class="row">
         <div class="col">
           <div class="section_title text-center">
-            <div>Resort</div>
-            <h1>What we offer</h1>
+            <div>Khách sạn</div>
+            <h1>Chúng tôi có những gì?</h1>
           </div>
         </div>
       </div>
@@ -48,9 +48,9 @@
           <div class="offer">
             <div class="offer_image"><img src="images/offer_1.jpg" alt=""></div>
             <div class="offer_content text-center">
-              <div class="offer_title"><h3>Outdoor Pool</h3></div>
+              <div class="offer_title"><h3>Hồ bơi</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                <p>Với thiết kế hồ bơi nhân tạo bốn mùa, khách hàng có thể đến và tận hưởng cảm giác đắm mình thư giãn trong hồ nước nhân tạo. </p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -76,9 +76,9 @@
           <div class="offer">
             <div class="offer_image"><img src="images/offer_3.jpg" alt=""></div>
             <div class="offer_content text-center">
-              <div class="offer_title"><h3>Spa Zone</h3></div>
+              <div class="offer_title"><h3>Dịch vụ spa</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                <p>Sau mỗi giờ làm việc ai cũng muốn được thư giãn, tại đây với dịch vụ spa chúng tôi có bồn tắm bùn và bể sục rất tốt cho sức khoẻ và làn da của bạn. </p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -90,9 +90,9 @@
           <div class="offer">
             <div class="offer_image"><img src="images/offer_4.jpg" alt=""></div>
             <div class="offer_content text-center">
-              <div class="offer_title"><h3>Sports Area</h3></div>
+              <div class="offer_title"><h3>Khu vực sân chơi ngoài trời</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                <p>Sân chơi ngoài trời rất rộng rãi giúp bạn cùng gia đình, bạn bè có thể tận hưởng những buổi tiệc bbq, cùng nhau checkin sân vườn của chúng tôi.</p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -104,9 +104,9 @@
           <div class="offer">
             <div class="offer_image"><img src="images/offer_5.jpg" alt=""></div>
             <div class="offer_content text-center">
-              <div class="offer_title"><h3>Restaurant</h3></div>
+              <div class="offer_title"><h3>Bữa ăn</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                <p>Chúng tôi có những phục vụ đảm bảo bữa ăn của bạn trở lên tuyệt vời hơn bao giờ hết, với những đầu bếp được đào tạo chuyên nghiệp chuẩn năm sao.</p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -143,8 +143,8 @@
           <!-- Discover Content -->
           <div class="col-xl-5 col-lg-6">
             <div class="section_title">
-              <div>Hotel</div>
-              <h1>Discover Marimar Hotel</h1>
+              <div>Khách sạn</div>
+              <h1>Những câu chuyện của Kim Hotel</h1>
             </div>
             <div class="discover_highlight">
               <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur.</p>
@@ -152,36 +152,16 @@
             <div class="discover_text">
               <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis.</p>
             </div>
-            <div class="button discover_button"><a href="#">discover</a></div>
+            <div class="button discover_button"><a href="#"></a></div>
           </div>
 
-          <!-- Milestones -->
-          <div class="col-lg-6 offset-xl-1">
-            <div class="milestones d-flex flex-row align-items-start justify-content-start flex-wrap">
+          
               
-              <!-- Milestone -->
-              <div class="milestone">
-                <div class="milestone_counter" data-end-value="75">0</div>
-                <div class="milestone_text">Deluxe Rooms</div>
-              </div>
 
-              <!-- Milestone -->
-              <div class="milestone">
-                <div class="milestone_counter" data-end-value="110">0</div>
-                <div class="milestone_text">Years of Experience</div>
-              </div>
 
-              <!-- Milestone -->
-              <div class="milestone">
-                <div class="milestone_counter" data-end-value="31">0</div>
-                <div class="milestone_text">Awards Won</div>
-              </div>
+             
 
-              <!-- Milestone -->
-              <div class="milestone">
-                <div class="milestone_counter" data-end-value="51" data-sign-after="k">0</div>
-                <div class="milestone_text">Happy Clients</div>
-              </div>
+              
 
             </div>
           </div>

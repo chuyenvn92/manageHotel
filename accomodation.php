@@ -231,8 +231,8 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                       <div class="descRoom">
                         <ul><h4><p><?php echo $result->ROOM ;?></p></h4>
                         <li><?php echo $result->ROOMDESC ;?></li>
-                        <li>Number Person : <?php echo $result->NUMPERSON ;?></li>
-                         <li>Remaining Rooms :<?php echo  $resNum ;?></li>   
+                        <li>Số người : <?php echo $result->NUMPERSON ;?></li>
+                         <li>Phòng còn trống :<?php echo  $resNum ;?></li>   
                         <li style="list-style:none;"><?php echo $btn ;?></li>  
                         </ul>
                     </div>

@@ -4,12 +4,12 @@
         <div id=" -wrap" class="clr">  
         
 
-         <div class="col-lg-3"> <label class="block"><p>Availability Search</p></label></div>
+         <div class="col-lg-3"> <label class="block"><p>Tìm kiếm</p></label></div>
          <div class="col-lg-9 ">
           <div class="row block">
               <div class="col-md-2 col-sm-2 s">.
             <div class="form-group input-group"> 
-                      <label>Arrival</label> 
+                      <label>Đến</label> 
                       <input type="text" data-date="" data-date-format="yyyy-mm-dd" data-link-field="any" 
                                data-link-format="yyyy-mm-dd"
                                name="arrival" id="date_pickerfrom"  
@@ -23,7 +23,7 @@
            </div>
             <div class="col-md-2 col-sm-2 s">.
               <div class="form-group input-group"> 
-                    <label>Departure</label> 
+                    <label>Đi</label> 
                     <input type="text" data-date="" data-date-format="yyyy-mm-dd" data-link-field="any" 
                            data-link-format="yyyy-mm-dd"
                            name="departure" id="date_pickerto" 
@@ -40,7 +40,7 @@
                          $accomodation = New Accomodation();
                          $cur = $accomodation->listOfaccomodation(); 
                           ?>
-                          <label>Accomodation</label> 
+                          <label>Nơi ở</label> 
                           <select class="form-control input-sm" name="accomodation" id="person">
                           <?php  foreach ($cur as $result) { ?>
                           <option value="<?php echo $result->ACCOMODATION; ?>"><?php echo $result->ACCOMODATION; ?></option>
