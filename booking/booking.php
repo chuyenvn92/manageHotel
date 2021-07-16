@@ -35,10 +35,10 @@ if(isset($_GET['id'])){
               <th align="center" width="120">Phòng</th>
               <th align="center" width="120">Check In</th>
               <th align="center" width="120">Check Out</th> 
-              <th  width="120">Price</th> 
+              <th  width="120">Giá tiền</th> 
               <th align="center" width="120">Số đêm</th> 
-              <th align="center" >Số tiền</th>
-              <th align="center" width="90">Hoạt động</th> 
+              <th align="center" >Tổng tiền</th>
+              <th align="center" width="90">Thao tác</th> 
             </tr> 
           </thead>
           <tbody >
@@ -66,7 +66,7 @@ if(isset($_GET['id'])){
                         echo '<td>'. $result->ROOM.' '. $result->ROOMDESC.' </td>';
                         echo '<td>'.date_format(date_create( $_SESSION['dragonhouse_cart'][$i]['dragonhousecheckin']),"m/d/Y").'</td>';
                         echo '<td>'.date_format(date_create( $_SESSION['dragonhouse_cart'][$i]['dragonhousecheckout']),"m/d/Y").'</td>';
-                        echo '<td > &euro;'. $result->PRICE.'
+                        echo '<td >'. number_format($result->PRICE) .'VNĐ
                           <input type="hidden" value="'.$result->PRICE.'"  name="roomprice'.$_SESSION['dragonhouse_cart'][$i]['dragonhouseroomid'].'" id="roomprice'.$_SESSION['dragonhouse_cart'][$i]['dragonhouseroomid'].'"/>
 
                         </td>'; 
@@ -74,8 +74,8 @@ if(isset($_GET['id'])){
                         
                         echo  '<input type="hidden"  name="MealPrice'.$_SESSION['dragonhouse_cart'][$i]['dragonhouseroomid'].'" id="MealPrice'.$_SESSION['dragonhouse_cart'][$i]['dragonhouseroomid'].'"/>';
                         echo '</td>';
-                        echo '<td>$<output id="TotAmount'.$_SESSION['dragonhouse_cart'][$i]['dragonhouseroomid'].'" >'.$_SESSION['dragonhouse_cart'][$i]['dragonhouseroomprice'].'</output></td>';
-                        echo '<td ><a href="index.php?view=processcart&id='.$result->ROOMID.'">Remove</td>';
+                        echo '<td><output id="TotAmount'.$_SESSION['dragonhouse_cart'][$i]['dragonhouseroomid'].'" >'.number_format($_SESSION['dragonhouse_cart'][$i]['dragonhouseroomprice']).'VNĐ</output></td>';
+                        echo '<td ><a href="index.php?view=processcart&id='.$result->ROOMID.'">Xoá</td>';
  
                       } 
 
@@ -97,9 +97,9 @@ if(isset($_GET['id'])){
 
           <tfoot>
             <tr>
-           <td colspan="6"><h4 align="right">Total:</h4></td>
+           <td colspan="6"><h4 align="right">Tổng:</h4></td>
            <td colspan="4">
-             <h4><b>&euro;<span id="sum"><?php  echo isset($_SESSION['pay']) ?  $_SESSION['pay'] :'Your booking cart is empty.';?></span></b></h4>
+             <h4><b><span id="sum"><?php  echo isset($_SESSION['pay']) ?  number_format($_SESSION['pay']).' VNĐ' : 'Bạn chưa đặt phòng';?></span></b></h4>
                          
             </td>
             </tr>

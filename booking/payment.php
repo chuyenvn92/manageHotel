@@ -119,7 +119,7 @@ $_SESSION['GUESTID'] =   $lastguest;
 
             ?> 
 
-<script type="text/javascript"> alert("Booking is successfully submitted!");</script>
+<script type="text/javascript"> alert("Đặt phòng thành công!");</script>
 
             <?php
             
@@ -156,17 +156,17 @@ $_SESSION['GUESTID'] =   $lastguest;
   <div class="row">
     <div class="col-md-8 col-sm-4">
        <div class="col-md-12">
-          <label>Name:</label>
+          <label>Tên:</label>
           <?php echo $_SESSION['name'] . ' '. $_SESSION['last']; 
    echo $count_cart;
            ?>
         </div>
         <div class="col-md-12">
-          <label>Address:</label>
+          <label>Địa chỉ:</label>
           <?php echo isset($_SESSION['city']) ? $_SESSION['city']: ' '. ' ' . isset($_SESSION['address'])  ? $_SESSION['address'] : ' '; ?> 
         </div>
         <div class="col-md-12"> 
-        <label>Phone #:</label>
+        <label>Số điện thoại:</label>
          <?php echo $_SESSION['phone'] ; ?>
         </div>
     </div> 
@@ -222,9 +222,9 @@ for ($i=0; $i < $count_cart  ; $i++) {
           <td><?php echo  $result->ROOM.' '. $result->ROOMDESC; ?></td>
           <td><?php echo  date_format(date_create( $_SESSION['dragonhouse_cart'][$i]['dragonhousecheckin']),"m/d/Y"); ?></td>
           <td><?php echo  date_format(date_create( $_SESSION['dragonhouse_cart'][$i]['dragonhousecheckout']),"m/d/Y"); ?></td>
-          <td><?php echo  ' &euro;'. $result->PRICE; ?></td>
+          <td><?php echo   $result->PRICE.'VNĐ'; ?></td>
           <td><?php echo   $_SESSION['dragonhouse_cart'][$i]['dragonhouseday']; ?></td>
-          <td><?php echo ' &euro;'.   $_SESSION['dragonhouse_cart'][$i]['dragonhouseroomprice']; ?></td>
+          <td><?php echo   $_SESSION['dragonhouse_cart'][$i]['dragonhouseroomprice'].'VNĐ'; ?></td>
         </tr>
 <?php
        $payable += $_SESSION['dragonhouse_cart'][$i]['dragonhouseroomprice'] ;
@@ -242,7 +242,7 @@ for ($i=0; $i < $count_cart  ; $i++) {
  
 
     <div class="right"> 
-      <h3 style="text-align: right;">Tổng tiền: &euro; <?php echo   $_SESSION['pay'] ;?></h3>
+      <h3 style="text-align: right;">Tổng tiền:  <?php echo   $_SESSION['pay'].'VNĐ' ;?></h3>
     </div>
     <br>
     <div class="">

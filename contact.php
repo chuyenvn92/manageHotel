@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col">
             <div class="section_title text-center">
-              <div>Ciao</div>
+              <div>Hello</div>
               <h1>Xin chào</h1>
             </div>
             <div class="contact_text text-center">

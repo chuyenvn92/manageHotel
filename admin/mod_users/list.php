@@ -17,7 +17,7 @@
 				  		 Tên người dùng</th>
 				  		<th>Tên tài khoản</th>
 				  		<th>Vị trí</th>
-						<th>Liên hệ #</th>
+						<th>Liên hệ </th>
 				 
 				  	</tr>	
 				  </thead>

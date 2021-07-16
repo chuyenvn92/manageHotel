@@ -42,7 +42,7 @@ function doCheckout(){
 		$mydb->setQuery($sql);
 		$mydb->executeQuery(); 
 					
-		message("Reservation Upadated successfully!", "success");
+		message("Cập nhập thành công!", "success");
 		redirect('index.php');
 
 }
@@ -86,7 +86,7 @@ $mydb->setQuery($sql);
 $mydb->executeQuery(); 
 
 				
-message("Reservation Upadated successfully!", "success");
+message("Cập nhật thành công", "success");
 redirect('index.php');
 
 }
@@ -108,7 +108,7 @@ $sql = "UPDATE `tblreservation` SET `STATUS`='Cancelled' WHERE `RESERVEID` ='" .
 mysql_query($sql) or die(mysql_error());
 
 				
-message("Reservation Upadated successfully!", "success");
+message("Huỷ thành công", "success");
 redirect('index.php');
 
 }
@@ -137,7 +137,7 @@ $mydb->executeQuery();
 
 
 
-message("Reservation Upadated successfully!", "success");
+message("Sửa thành công!", "success");
 redirect('index.php');
 
 }	
@@ -155,10 +155,10 @@ function doDelete(){
 	$res = $mydb->executeQuery();
 	if ($res) {
 		# code...
-	message("Reservation Deleted successfully!", "success");
+	message("Xoá thành công", "success");
  	redirect('index.php');
 	}else{
-	message("Reservation cannot be deleted!", "error");
+	message("Không thể xóa!", "error");
  	redirect('index.php');
 	}
   }

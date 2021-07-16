@@ -151,14 +151,14 @@ if (isset($_SESSION['activity'])){
                          $cur = $accomodation->listOfaccomodation(); 
                           ?>
                     <select  name="accomodation" id="person">
-                      <option value="0">Chỗ ở</option>
+                      <option value="0">Loại phòng</option>
                       <?php  foreach ($cur as $result) { ?>
                           <option value="<?php echo $result->ACCOMODATION; ?>"><?php echo $result->ACCOMODATION; ?></option>
                           <?php  } ?>
                     </select>
                   </div>
                 </div>
-                <button class="booking_form_button ml-lg-auto">Đặt phòng ngay</button>
+                <button class="booking_form_button ml-lg-auto">Tìm kiếm</button>
               </div>
             </form>
           </div>

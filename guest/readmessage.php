@@ -116,11 +116,11 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
             <tr> 
               <td><?php echo $result->ACCOMODATION . ' [' .$result->ROOM.']' ;?></td>
               <td><?php echo $result->ROOMDESC . ' <br/> Person: ' .  $result->NUMPERSON;?></td>
-              <td> &euro;<?php echo $result->PRICE;?></td>
+              <td> <?php echo $result->PRICE;?> VNĐ</td>
               <td><?php echo date_format(date_create($result->ARRIVAL),'m/d/Y');?></td>
               <td><?php echo date_format(date_create($result->DEPARTURE),'m/d/Y');?></td>
               <td><?php echo ($days==0) ? '1' : $days;?></td>
-              <td> &euro;<?php echo $result->RPRICE;?></td>
+              <td> <?php echo $result->RPRICE;?> VNĐ</td>
             </tr>
             
             
@@ -156,7 +156,7 @@ $sql = "UPDATE `tblpayment` SET `MSGVIEW`=1 WHERE `CONFIRMATIONCODE` ='" . $_GET
             <table class="table">
               <tr>
                 <th style="width:50%">Tổng hoá đơn:</th>
-                <td>$<?php echo @$tot ; ?></td>
+                <td><?php echo @$tot ; ?> VNĐ</td>
               </tr>
          <!--      <tr>
                 <th>Tax (9.3%)</th>

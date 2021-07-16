@@ -67,7 +67,7 @@ $res = $user->single_user($_SESSION['id']);
         <div class="form-group">
           <div class="col-md-8">
             <label class="col-md-4 control-label" for=
-            "Contact #:">Liên hệ #::</label>
+            "Contact #:">Liên hệ :</label>
 
             <div class="col-md-8">
               <input name="deptid" type="hidden" value="">

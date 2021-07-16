@@ -62,9 +62,9 @@
           <div class="offer">
             <div class="offer_image"><img src="images/offer_2.jpg" alt=""></div>
             <div class="offer_content text-center">
-              <div class="offer_title"><h3>Indoor Pool</h3></div>
+              <div class="offer_title"><h3>Hồ bơi trong nhà</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                <p>ĐƯợc thiết kế bể bơi bốn mùa, giúp quý khách hàng có trải nghiệm bơi lội tuyệt vời bất kể thời tiết thế nào.</p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -118,9 +118,9 @@
           <div class="offer">
             <div class="offer_image"><img src="images/offer_6.jpg" alt=""></div>
             <div class="offer_content text-center">
-              <div class="offer_title"><h3>Skybar</h3></div>
+              <div class="offer_title"><h3>Quầy bar ngoài trời</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                <p>Phục vụ cho các bữa tiệc ngoài trời của quý khách, với thiết kế kiến trúc Âu Á, đem lại cho bạn cảm giác khác lạ, giúp bữa tiệc của bạn trở lên đặc biệt hơn.</p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -147,12 +147,12 @@
               <h1>Những câu chuyện của Kim Hotel</h1>
             </div>
             <div class="discover_highlight">
-              <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur.</p>
+              <p>Được thiết kế theo kiến trúc Á-Âu đem lị cảm giác mới lạ cho khách hàng, nội thất đạt tiêu chuẩn quốc tế thông minh giúp quý khách có cảm giác thoải mái khi sử dụng.</p>
             </div>
             <div class="discover_text">
-              <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis.</p>
+              <p>Kim Hotel, nơi mang lại cho quý hách hàng những trải nghiệm tuyệt vời cùng với bạn bè, gia đình, người yêu. Chúng tôi với đội ngũ lễ tân, nhân viên chuyên nghiệp sẽ phục vụ quý khách hết lòng!!!</p>
             </div>
-            <div class="button discover_button"><a href="#"></a></div>
+            <div class="button discover_button"><a href="#">Về đầu trang</a></div>
           </div>
 
           

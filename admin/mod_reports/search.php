@@ -8,7 +8,7 @@
 		 <input class="form-control" size="20" type="text" value="<?php echo isset($_POST['txtsearch']) ? $_POST['txtsearch'] :'' ?>" Placeholder="Search For...." name="txtsearch" id="txtsearch">
 		 </div>
 		<div class="form-group">
-		<h4>Trạng thái :: </h4>
+		<h4>Trạng thái : </h4>
 		</div>
 		  <div class="form-group">
 		  <select name="categ" class="form-control">
@@ -20,7 +20,7 @@
 		  </select>
 		  </div>
 		 <div class="form-group">
-		<h4>Bộ lọc ngày :: </h4>
+		<h4>Bộ lọc ngày : </h4>
 		</div>
 		  <div class="form-group">
 		 <input class="form-control date start " size="20" type="text" value="<?php echo (isset($_POST['start'])) ? $_POST['start'] : date('Y-m-d'); ?>" Placeholder="Check In" name="start" id="from" data-date="" data-date-format="yyyy-mm-dd" data-link-field="any" data-link-format="yyyy-mm-dd">
@@ -40,7 +40,7 @@
 
 <table  class="table table-bordered" cellspacing="0">
 <thead>
-<tr><td colspan="9" align="center"><h1 class="page-header">Monbela Tourist Inn</h1></td></tr>
+<tr><td colspan="9" align="center"><h1 class="page-header">Kim Hotel</h1></td></tr>
 <tr bgcolor="#999999">
 <td ><strong>Khách</strong></td>
 <td ><strong>Ngày đến</strong></td>

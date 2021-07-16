@@ -100,7 +100,7 @@
               <th>Giá</th>
               <th>Ngày đến</th>
               <th>Ngày đi</th>
-              <th>Phí phát sinh</th>
+              <th>Số đêm</th>
               <th>Tổng</th>
             </tr>
             </thead>
@@ -133,11 +133,11 @@
                   <tr> 
                     <td><?php echo $result->G_FNAME . ' ' .  $result->G_LNAME;?></td>
                     <td><?php echo $result->ACCOMODATION . ' [' .$result->ROOM.']' ;?></td>
-                    <td> &euro; <?php echo $result->PRICE;?></td>
+                    <td> <?php echo number_format($result->PRICE);?> VNĐ</td>
                     <td><?php echo date_format(date_create($result->ARRIVAL),'m/d/Y');?></td>
                     <td><?php echo date_format(date_create($result->DEPARTURE),'m/d/Y');?></td>
                     <td><?php echo ($days==0) ? '1' : $days;?></td>
-                    <td> &euro; <?php echo $result->RPRICE;?></td>
+                    <td> <?php echo number_format($result->RPRICE);?> VNĐ</td>
                   </tr>
                   <?php 
                     @$tot += $result->RPRICE;
@@ -165,7 +165,7 @@
             <table class="table">
               <tr>
                 <th style="width:50%">Tổng:</th>
-                <td><?php echo @$tot .'VNĐ'; ?></td>
+                <td><?php echo @$tot .' VNĐ'; ?></td>
               </tr> 
             </table>
           </div>

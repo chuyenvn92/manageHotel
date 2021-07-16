@@ -65,7 +65,7 @@ require_once("../../includes/initialize.php");
               <th>Ngày đến</th>
               <th>Ngày đi</th>
               <th>Số đêm</th>
-              <th>Phụ thu</th>
+              <th>Tổng</th>
             </tr>
             </thead>
             <tbody>
@@ -94,11 +94,11 @@ require_once("../../includes/initialize.php");
             <tr> 
               <td><?php echo $result->G_FNAME . ' ' .  $result->G_LNAME;?></td>
               <td><?php echo $result->ACCOMODATION . ' [' .$result->ROOM.']' ;?></td>
-              <td> &euro; <?php echo $result->PRICE;?></td>
+              <td>  <?php echo number_format($result->PRICE);?> VNĐ</td>
               <td><?php echo date_format(date_create($result->ARRIVAL),'m/d/Y');?></td>
               <td><?php echo date_format(date_create($result->DEPARTURE),'m/d/Y');?></td>
               <td><?php echo ($days==0) ? '1' : $days;?></td>
-              <td> &euro; <?php echo $result->RPRICE;?></td>
+              <td>  <?php echo number_format($result->RPRICE);?> 000 VNĐ</td>
             </tr>
             
             
@@ -128,7 +128,7 @@ require_once("../../includes/initialize.php");
             <table class="table">
               <tr>
                 <th style="width:50%">Tổng:</th>
-                <td > &euro; <?php echo @$tot ; ?></td>
+                <td >  <?php echo @$tot ; ?> 000 VNĐ</td>
               </tr>
        
             </table>

@@ -36,7 +36,7 @@ require_once ("../includes/initialize.php");
 		              <th align="center" width="120">Check Out</th> 
 		              <th  width="120">Giá</th> 
 		              <th align="center" width="120">Số đêm</th>
-		              <th align="center" width="90">Tổng tiền</th>
+		              <th align="center" width="120">Tổng tiền</th>
 				</tr>
 				</thead>
 				<tbody>
@@ -58,9 +58,9 @@ foreach ($res as $result) {
 				  		 echo '<td>'. $result->ROOM.' '. $result->ROOMDESC.' </td>';
                         echo '<td>'.date_format(date_create($result->ARRIVAL),"m/d/Y").'</td>';
                         echo '<td>'.date_format(date_create($result->DEPARTURE),"m/d/Y").'</td>';
-                        echo '<td > &euro; '. $result->PRICE.'</td>'; 
+                        echo '<td >'. number_format($result->PRICE).' VNĐ</td>'; 
                         echo '<td>'.$day.'</td>';
-                        echo '<td > &euro; '. $result->RPRICE.'</td>';
+                        echo '<td >'. number_format($result->RPRICE).' VNĐ</td>';
 				  		
 				  		echo '</tr>';
 				 

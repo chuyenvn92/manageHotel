@@ -140,16 +140,7 @@ redirect('index.php?view=payment');
 			              </div>
 			            </div>
 			          </div>
-			              <div class="form-group">
-			            <div class="col-md-12">
-			              <label class="col-md-4 control-label" for=
-			              "caddress">ADDRESS:</label>
-
-			              <div class="col-md-12">
-			                <input name="caddress" type="text" class="form-control input-sm" id="caddress" />
-			              </div>
-			            </div>
-			          </div>
+			      
 			    
 			              
 			          <div class="form-group">
