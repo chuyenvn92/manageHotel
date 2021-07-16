@@ -1,18 +1,4 @@
-/* JS Document */
 
-/******************************
-
-[Table of Contents]
-
-1. Vars and Inits
-2. Set Header
-3. Init Menu
-4. Init Search
-5. Init Date Picker
-6. Init Custom Select
-
-
-******************************/
 
 $(document).ready(function()
 {

@@ -11,17 +11,17 @@ require_once ("../includes/initialize.php");
  
 		<table>
 			<tr>
-			<!-- 	<td align="center"> 
+			<td align="center"> 
 				<img src="../images/images/5page-img1.png"  height="90px" style="-webkit-border-radius:5px; -moz-border-radius:5px;" alt="Image">
-        		</td> -->
+        		</td> 
 				<td width="87%" align="center">
-				<!-- <h3 >Monbela Tourist Inn</h3> -->
-				<h2>Danh sách phòng đã đặt 
-				</h2>
+				 <h2 >Kim Hotel</h2> 
+				<h3>Danh sách phòng đã đặt 
+				</h3>
 				</td>
 			</tr>
 		</table>
-		<!-- <h2 class="modal-title" id="myModalLabel">Billing Details </h2> -->
+		<!-- <h2 class="modal-title" id="myModalLabel"> </h2> -->
 		
  
 <?php 

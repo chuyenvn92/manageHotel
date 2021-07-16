@@ -13,7 +13,6 @@ $res = $guest->single_guest($_SESSION['GUESTID']);
     <section class="content-header">
       <h1>
        Tài khoản của tôi 
-        <small>Chi tiết tài khoản</small>
       </h1> 
     </section>
 
